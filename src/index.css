@@ -1,0 +1,4881 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.Home-wrapper{
+  background-color: #eef7f6;
+}
+
+
+/* Header */
+.navbar {
+height: 200px;
+width: 100%;
+ display: flex;
+  border: 2px solid #3333;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 15px 40px;
+}
+.nav a {
+  color: black;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.nav-btn button{
+    background-color: #0b7f6a;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 12px 22px;
+    border: none;
+    
+    
+   
+}
+.nav a:hover{
+  color: #096655;
+}
+.logo img{
+  height: 150px;
+  width: 150px;
+}
+/*----------------------------------dropdown lists-------------------------------------*/
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+/* DROPDOWN */
+.dropdown {
+  position: relative;
+  margin-left: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.drop-link {
+  color: black;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* FIRST DROPDOWN */
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #1b1b1b;
+  min-width: 280px;
+  display: none;
+  z-index: 1000;
+}
+
+.dropdown-menu a,
+.dropdown-sub span {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 18px;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid #333;
+  font-size: 14px;
+}
+
+.dropdown-menu a:hover,
+.dropdown-sub span:hover {
+  background: #111;
+  color: #2de1c2;
+}
+
+/* SUB DROPDOWN */
+.dropdown-sub {
+  position: relative;
+}
+
+.dropdown-submenu {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background: #1b1b1b;
+  min-width: 300px;
+  display: none;
+}
+
+.dropdown-sub:hover .dropdown-submenu {
+  display: block;
+}
+
+.dropdown-submenu a {
+  padding: 14px 18px;
+  color: #fff;
+}
+
+.dropdown-submenu a:hover {
+  background: #111;
+  color: #2de1c2;
+}
+
+.arrow {
+  color: #2de1c2;
+}
+
+/* ---------------------------------------------Home section------------------------------------------------------ */
+/* Home part*/
+.Home {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;   
+  align-items: center;       
+  text-align: center;
+  background: #eef7f6;
+  
+}
+
+
+/* Heading */
+.Home-title {
+  font-size: 74px;
+  font-weight: 700;
+  margin-top: 120px;     
+  margin-bottom: 30px;
+}
+
+
+.Home-title span {
+  display: block;
+  color: #0a7d6c;
+  margin-top: 8px;
+  text-align: center;
+}
+
+
+.Home-action {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 60px;
+  height: auto;
+}
+
+/* Buttons */
+.btn {
+    margin-top: 20px;
+  padding: 10px 40px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 2px solid #0a7d6c;
+}
+.primary{
+    background-color: #0b7f6a;
+    color: #ffffff;
+    
+    padding: 10px 60px;
+    border-radius: 50px;
+    border: none;
+   box-shadow: 5px 6px 15px rgba(11, 127, 106, 0.4);
+}
+.outline{
+    color: #12b997;
+    background-color: #ffffff;
+   
+    padding: 10px 40px;
+    border: 2px solid #0a7d6c;
+    border-radius: 50px;
+
+}
+
+
+/* --------------------------------------------------Home section 2------------------------------------------------------------- */
+
+
+.Home-content {
+  margin-top: 0;              
+  padding: 60px 20px;        
+  text-align: center;
+  
+}
+
+.Home-content h2 {
+  font-size: 26px;
+  margin-bottom: 30px;        
+}
+
+.Home-content p {
+  margin-bottom: 20px;       
+  line-height: 1.6;
+}
+
+
+/* // Hero Services */
+/* ================= OUR CORE SERVICES ================= */
+.services-section {
+  /* background-color: #EDF8F7; */
+  padding: 60px 0px;
+  text-align: center;
+  min-height: 650px;
+  width: 100%;
+  color: #333333;
+}
+
+.services-section h2   {
+  color: #2de1c2;
+  font-size: 46px;
+  font-weight: 700;
+  
+}
+
+.services-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+ 
+}
+
+.service-card1 {
+  background-color: #ffffff;
+  width: 360px;
+  min-height: 400px;
+  padding: 30px;
+  border-radius: 16px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #000000;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.icon-box {
+  width: 60px;
+  height: 60px;
+  background: #1fa88f;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  color: #fff;
+}
+
+.service-card1 h3 {
+  color: #fff;
+  font-size: 22px;
+}
+
+.service-card1 p {
+  color: #000000;
+  font-size: 16px;
+  margin: 15px 0;
+}
+.service-card1 ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.service-card1 ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;             /* icon aur text ke beech space */
+  margin-bottom: 12px;
+  color: #000000;           /* readable text */
+  font-size: 16px;
+}
+
+
+
+.btn-wrapper {
+  text-align: center;
+  margin-top: auto;
+}
+
+.service-card1 button {
+  background: #1fa88f;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.service-card1 button:hover {
+  background: #2de1c2;
+  color: #000;
+}
+
+/* -----------------------------  Home training & workshop ------------------------------ */
+
+
+
+.training {
+  background: #f8f8f8;
+  padding: 80px 0;
+}
+
+/* WRAPPER – TWO CARDS */
+.training-wrapper {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 40px;              
+  align-items: stretch;   
+}
+
+
+.training-card,
+.workshop-card {
+  background-color: #ffffff;
+  border-radius: 18px;
+  overflow: hidden;
+  flex: 1.1;               
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* IMAGES */
+.training-img,
+.workshop-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
+/* CONTENT */
+.training-content,
+.workshop-content {
+  padding: 28px 30px 32px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: flex-start;   /* LEFT ALIGN */
+  text-align: left;          /* TEXT LEFT */
+}
+
+/* HEADING */
+.training-content h3,
+.workshop-content h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+/* PARAGRAPH */
+.training-para,
+.workshop-para {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+/* LIST */
+.training-list,
+.workshop-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 28px;
+  width: 100%;
+}
+
+.training-list li,
+.workshop-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;             /* icon aur text ke beech space */
+  margin-bottom: 18px;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+/* ICON */
+.list-icon {
+  color: #12b997;
+  font-size: 18px;
+  margin-top: 4px;
+  flex-shrink: 0;
+}
+
+/* HEADING TEXT IN LIST */
+.training-list ,
+.workshop-list {
+  font-weight: 600;
+  display: inline;
+  margin-bottom: 4px;
+}
+
+
+
+/* BUTTONS */
+.training-button,
+.workshop-button {
+  background-color: #12b997;
+  color: #fff;
+  padding: 12px 36px;
+  border-radius: 6px;
+  border: none;
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: auto;     
+  transition: 0.3s;
+  height: 44px;
+  width: 264px;
+  text-align: center;
+  
+}
+
+
+.training-button:hover,
+.workshop-button:hover {
+  background-color: #0fa685;
+}
+
+
+
+/* ---------------------------- Home community section--------------------------------- */
+/* Section Background */
+.community {
+  background-color: #EDF8F7;
+  padding: 90px 0;
+  text-align: center;
+  color: #fff;
+}
+
+/* Wrapper */
+.wrapper {
+  width: 90%;
+  max-width: 100%;
+  margin: 0 120px;
+}
+
+/* Heading */
+.wrapper  h2 {
+  font-size: 44px;
+  font-weight: 700;
+  color: #12B997;   /* screenshot green */
+  margin-bottom: 20px;
+}
+
+/* Paragraph under heading */
+.community-para {
+  max-width: 720px;
+  margin: 0 auto 70px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #000000;
+  
+}
+
+/* Cards Layout */
+.community-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+/* Card Design */
+.card {
+  background-color: #ffffff;
+  width: 32%;
+  padding: 35px 30px;
+  border-radius: 18px;
+  text-align: left;
+  min-height: 360px;
+  display: flex;
+  flex-direction: column;
+  color: #333333;
+  justify-content: space-between;
+}
+
+/* Icon + Title */
+.card-top {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Icon Box */
+.icon-box {
+  width: 60px;
+  height: 60px;
+  background: #1ba784;   /* green bg according to ss */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  font-size: 24px;
+  color: #333333;
+}
+
+/* Card Title */
+.card h3 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #000000;
+}
+
+/* Card Paragraph */
+.card-text {
+  margin: 5px 0;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #000000;
+}
+
+/* Button */
+.card-btn {
+  align-self: center;
+  background: #1ba784;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.card-btn:hover {
+  background: #159b76;
+}
+
+
+/* -----------------------------------maldives (Home ) css---------------------------------- */
+/* SECTION */
+.maldives-section1 {
+  background-color: #12B997;   /* exact tone like screenshot */
+  padding: 80px 0;
+  /* height: 500px; */
+}
+
+/* CONTAINER */
+.maldives-container {
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  padding-left: 120px;
+  display: flex;
+  /* align-items:flex-start; */
+  
+}
+
+/* LEFT */
+.maldives-left {
+ 
+  flex: 0 0 55%;
+  color: #ffffff;
+  text-align: left;   /* FORCE LEFT */
+}
+
+  
+
+
+.maldives-left h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  /* padding-right:180px; */
+  color: #ffffff;
+}
+
+.top-para {
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+  max-width: 550px;
+  white-space: nowrap;
+}
+
+/* LIST */
+.maldives-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.maldives-list li {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 14px;
+  font-size: 17px;
+}
+
+.check-icon {
+  font-size: 20px;
+  margin-left: -20px;   /* thoda aur left */
+}
+
+
+/* CONTACT ROW */
+.contact-row {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  flex-wrap: wrap;
+}
+
+.contact-row span {
+  display: flex;
+  /* align-items: center; */
+  gap: 8px;
+}
+
+/* BUTTON */
+.maldives-btn {
+  background: #e4e4e4;
+  color: #1f9e85;
+  padding: 14px 30px;
+  border-radius: 8px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+
+.maldives-btn:hover {
+  background: #ffffff;
+}
+
+/* RIGHT IMAGE */
+.maldives-right {
+  flex: 0 0 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.maldives-right img {
+  width: 420px;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 22px;
+}
+
+
+
+
+
+ /* ---------------------------------------therapy (Home) css------------------------------------------- */
+.therapy-section1 {
+  background: #EDF8F7;
+  padding: 60px 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.therapy-wrapper1 {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.therapy-title1 {
+  font-size: 40px;
+  color: #1fa89a;
+  margin-bottom: 15px;
+}
+
+.therapy-desc1 {
+  font-size: 17px;
+  color: #333;
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+/* Card Layout */
+
+.therapy-card1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  gap: 40px;
+}
+
+/* LEFT LIST */
+
+.therapy-list1 {
+  flex: 1;
+  text-align: left;
+}
+
+.therapy-list1 ul {
+  list-style: none;
+  padding: 0;
+}
+
+.therapy-list1 li {
+  margin-bottom: 18px;
+  font-size: 16px;
+  position: relative;
+  padding-left: 28px;
+  line-height: 1.5;
+}
+
+
+
+.therapy-list1 li::before {
+  /* content: "✔"; */
+  position: absolute;
+  left: 0;
+  color: #1fa89a;
+  font-weight: bold;
+}
+
+/* RIGHT IMAGE CARD */
+
+.therapy-image-box {
+  flex: 1;
+  background: #1fa89a;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.therapy-image-box img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* BUTTON */
+
+.therapy-btn1 {
+  background: #fff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 4px;
+  color: #1fa89a;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.therapy-btn1:hover {
+  background: #f2f2f2;
+}
+
+.check-icon {
+  color: #15b8A4;
+  margin-top: 4px;
+  flex-shrink: 0;
+}
+
+/* ------------------------------------director Home------------------------------------- */
+.directors-section .director-title {
+  font-size: 39px;
+  color: #12b997;
+}
+
+.director-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.director-image {
+  padding-left: 10px;  
+}
+
+.director-image img {
+  height: 350px;
+  width: 350px;
+  
+  border-radius: 14px;
+  
+}
+
+/* .director-image img{
+  height: 400px;
+  width: 430px;
+  padding-left: 90px;
+  border-radius: 14px;
+} */
+ .director-content{
+  position: relative;
+  left: 10px;
+ }
+.director-quote{
+  height:60px;
+  width: 900px;
+}
+.director-name{
+  color: #12b997;
+  font-size: 34px;
+  margin-top: 29px;
+}
+.director-qualification{
+  margin: 15px 15px 20px;
+}
+.director-license{
+  margin: 0px;
+}
+/* ----------------------------------------------director nihhara------------------------ */
+
+
+
+/* --------------------------------------------career-section----------------------------------------- */
+.career-section {
+  background: #dce9e7;
+  padding: 80px 0;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.career-heading {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+  color: #1ca79b;
+  line-height: 1.3;
+  margin-bottom: 30px;
+}
+
+.career-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f3f3f3;
+  padding: 50px;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+/* LEFT SIDE */
+.career-left {
+  width: 55%;
+}
+
+.career-para {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.career-list {
+  list-style: none;
+  padding: 0;
+}
+
+.career-list li {
+  font-size: 17px;
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.career-list i {
+  color: #1ca79b;
+  font-size: 18px;
+}
+
+/* RIGHT SIDE */
+.career-right {
+  width: 42%;
+  background: #20b2a6;
+  padding: 40px;
+  border-radius: 20px;
+  color: white;
+}
+
+.right-email {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 30px; /* thoda gap jese ss */
+}
+
+.right-contact {
+  font-size: 16px;
+  margin-bottom: 35px;
+}
+
+.apply-btn {
+  background: white;
+  color: #20b2a6;
+  border: none;
+  padding: 14px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.career-list icon{
+  color: #20b2a6;
+  font-size: 20px;
+  font-weight:700; 
+}
+
+
+
+
+/* ------------------------------the End CSS part--------------------------------------------------------------- */
+
+
+
+
+
+/* ----------------------------------------Footer section-------------------------------------------- */
+.footer{
+  background-color: #050620;
+  color: #ffffff;
+  padding: 60px 0 20px;
+  font-family: 'Vesper Libre', sans-serif;
+  height: 456px;
+}
+
+.footer-wrapper{
+  max-width: 1200px;
+ margin-left: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  padding: 0 60px 0px 60px;
+}
+
+/* COLUMN */
+.footer-col img{
+  background-color: #EDF8F7;
+  height: 90px;
+  width: 90px;
+  object-fit: fit;
+  border-radius: 50%;
+  margin: 10px;
+ 
+}
+.footer-col p{
+  padding:10px;
+  margin-left: 10px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+/* ------------------------footer-contact------------------------- */
+.footer-contacts{
+  padding-bottom: 30px;
+   /* margin:30px; */
+   /* display: flex; */
+}
+.footer-contacts h2{
+  padding: 8px;
+}
+
+.footer-contact{
+  margin-top: 2px;
+  
+}
+
+/* ---------------------------------footer-times----------------------------------- */
+.footer-times h2{
+  padding: 8px;
+  /* margin-right: 50px; */
+}
+.footer-time{
+  margin-top: 4px;
+}
+/* ----------------------------------footer action---------------------------- */
+.footer-action h2{
+  padding: 10px;
+  /* margin: px; */
+}
+.footer-btn{
+  background-color: #12b997;
+  height: 50px;
+  width: 300px;
+  border-radius: 5px;
+  border: none;
+  /* margin-left:50px ; */
+  
+  box-shadow: 8px 8px 20px rgba(182, 180, 180, 0.25);
+}
+
+
+.footer-wrapper-divider{
+  background-color: #ffffff;
+  height: 1px;
+  width: 100%;
+  
+}
+/* --------------------------------footer bottom------------------------------- */
+
+ .footer-bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+   flex-wrap: wrap;   
+  gap: 15px;
+  height: 200px;
+}
+
+/* LEFT LINKS */
+.footer-links{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-links a{
+  color: #ffffff;
+  text-decoration: none;
+  position: relative;
+  font-size: 15px;
+}
+
+/* Pipe separator */
+.footer-links a:not(:last-child)::after{
+  content: "|";
+  margin-left: 20px;
+  opacity: 0.6;
+}
+
+/* RIGHT COPYRIGHT */
+.footer-copy{
+  font-size: 15px;
+  color: #ffffff;
+} 
+
+
+
+
+
+
+/* ----------------------------------------------contact page css--------------------------------------------------- */
+.contact-banner {
+  height: 250px;
+  width: 100%;
+  background-color: #010101;   /* Dark background */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-banner h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+
+.contact-section {
+  background-color: #EDF8F7;
+  padding: 100px 120px;
+  min-height: 100vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Layout */
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+/* LEFT SIDE */
+.contact-left {
+  width: 45%;
+}
+
+.section-heading {
+  color: #12B997;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+/* Cards */
+.contact-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 30px;
+  margin-bottom: 25px;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: #000000;
+  color: #333333;
+}
+
+.contact-card h3 {
+  color: #333333;
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.contact-card p {
+  color: #1f1f1f;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Icon */
+.card-icon {
+  color: #4FEECE;
+  font-size: 28px;
+  margin-top: 5px;
+}
+
+/* RIGHT SIDE FORM */
+.contact-form {
+  width: 45%;
+  background: #28deB6;
+  padding: 50px;
+  border-radius: 25px;
+  box-shadow: #000000;
+  /* color: #333333; */
+}
+
+/* Form Inputs */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 14px;
+  background-color: #ffffff;
+  border: 1px solid #444;
+  border-radius: 6px;
+
+  margin-bottom: 30px;
+  outline: none;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+}
+
+.form-row input {
+  width: 50%;
+}
+
+.contact-form textarea {
+  height: 120px;
+  resize: none;
+  background-color: #ffffff;
+}
+
+/* Button */
+.submit-btn {
+  padding: 12px 20px;
+  background: #333;
+  border: 1px solid #555;
+  color:white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background: white;
+  color: black;
+}
+
+
+/* -------------------------------About  us nav link ------------------------------- */
+.About-banner {
+  height: 200px;
+  width: 100%;
+  background-color: #010101;   /* Dark background */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.About-banner h2 {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 600;
+}
+  .About-story{
+    background-color: #12B99721;
+    min-height: 200px;
+    /* min-width: 700px; */
+    padding-top:100px;
+    /* padding-left: 100px; */
+    padding-bottom: 20px;
+   
+    
+
+
+  }
+  .About-content h2{
+    font-size: 34px;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  .About-content span{
+    color: #12B997;
+  }
+  .About-container {
+    display: flex;
+    justify-content: space-evenly ;
+    align-items: flex-start;
+  }
+  .About-content{
+    padding: 10px;
+  }
+  .About-image{
+    margin-bottom: 0;
+    
+  }
+  .About-image img{
+    height: 350px;
+    width: 500px;
+    border-radius: 14px;
+  }
+
+
+
+  /* --------------------------mission-vision------------------------------------------------ */
+  
+.mv-section{
+  background-color: #ffffff;
+  padding: 80px 60px;
+  color: #333333;
+}
+
+.mv-container{
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  justify-content:center;
+}
+
+/* IMAGE */
+.mv-image img{
+  width: 260px;
+  height: 320px;
+  border-radius: 14px;
+  object-fit: cover;
+  box-shadow: 0px 0px 12px rgba(0,0,0,0.4);
+}
+
+/* CONTENT */
+.mv-content{
+  max-width: 380px;
+  color:#000000 ;
+}
+
+.mv-content h2{
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.mv-content h2 span{
+  color: #2fe3c6;
+}
+
+/* PARAGRAPH */
+.mv-content p{
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  color: #000000;
+  font-weight: 600;
+}
+
+
+/* LIST */
+.mv-content ul{
+  padding-left: 18px;
+}
+
+.mv-content li{
+  margin-bottom: 12px;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #000000;
+}
+
+/* -------------------------------team section---------------------------------- */
+.team-section{
+  background-color: #EDF8F7;
+  padding: 90px 60px;
+  text-align: center;
+  color: white;
+}
+
+/* Heading */
+.team-heading{
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 60px;
+  color: #000000;
+}
+
+.team-heading span{
+  color: #2fe3c6;
+}
+
+/* Container */
+.team-container{
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  flex-wrap: wrap;
+}
+
+/* Card */
+.team-card{
+  width: 300px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: transparent;
+  box-shadow: 0px 8px 18px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+.team-card:hover{
+  transform: translateY(-8px);
+}
+
+/* Image */
+.team-card img{
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Bottom Info */
+.team-info{
+  background-color: #159d87;
+  padding: 25px;
+  text-align: left;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.team-info h3{
+  font-size: 18px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.team-info p{
+  font-size: 13px;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+
+
+
+/* ---------------------------------------maldives section-------------------------------- */
+.maldives-banner {
+  height: 250px;
+  width: 100%;
+  background-color: #1c1c1c;   /* Dark background */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.maldives-banner h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+/* --------------------------------maldives page ye hai css---------------------------------------------------------- */
+.maldives-section{
+  background: #EDF8F7;
+  padding: 80px 70px;
+  padding-left: 30px;
+  color: white;
+  height: 900px;
+}
+
+.maldives-container{
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+/* LEFT SIDE */
+
+.maldives-left{
+  /* width: 50%; */
+  flex: 1;
+  
+}
+
+.maldives-left img{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 18px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.maldives-left p{
+  line-height: 1.8;
+  margin-bottom: 15px;
+  color: #000000;
+  font-size: 15px;
+}
+
+.maldives-left ul{
+  padding-left: 20px;
+}
+
+.maldives-left li{
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+/* RIGHT FORM CARD */
+
+.maldives-form{
+  /* width:50%; */
+ background-color: #12B997;
+  padding: 35px;
+  border-radius: 18px;
+  flex: .5;
+  
+  
+}
+
+.maldives-form h2{
+  text-align: center;
+  margin-bottom: 10px;
+  color: #12B997;
+  font-size: 32px;
+}
+
+/* FORM */
+
+.maldives-form form{
+  display: flex;
+  flex-direction: column;
+}
+
+.maldives-form label{
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #333333;
+  
+}
+
+.maldives-form input,
+.maldives-form textarea{
+  margin-bottom: 12px;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  background-color: #ffffff;
+  color: white;
+  border: 1px solid white;
+}
+
+.maldives-form textarea{
+  height: 70px;
+  resize: none;
+}
+
+/* BUTTON */
+
+.maldives-form button{
+  padding: 14px;
+  border: none;
+  width: 120px;
+  border-radius: 2px;
+  background-color: #2fe3c6;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.maldives-form button:hover{
+  background: #23c3a8;
+}
+
+
+
+
+
+
+/* -----------------------maldives service --------------------------------------------- */
+/* ===== SECTION BACKGROUND ===== */
+
+.services {
+  width: 100%;
+  padding: 80px 10px;
+background-color: #12B99721;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-title {
+  text-align: center;      /* Center karega */
+  font-size: 29px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 15px;
+
+}
+
+.section-subtitle {
+  font-size: 16px;
+  color: #000000;
+  max-width: 750px;
+  margin: 0 auto 50px;
+  line-height: 1.6;
+  white-space: nowrap;
+  text-align: center;
+}
+ .services-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+} 
+
+.service-card {
+  background: #111;
+  width: 380px;
+  min-height: 260px;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: left;
+  transition: 0.3s ease;
+  /* margin: 10px; */
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  padding-left: 5px; 
+ } 
+
+ 
+
+.service-card ul li {
+  /* display: flex;
+  align-items: flex-start; */
+  /* gap: 10px; */
+  margin-bottom: 4px;
+  font-size: 16px;
+  line-height: 1.6;
+  list-style: none;
+}
+
+.service-card ul li i {
+  color: #00d084; 
+ font-size: 16px;
+  margin-top: 3px;
+} 
+.service-card ul{
+  list-style: none;
+}
+
+
+
+/* ------------------------------------------why Maldives section------------------------------------------- */
+/* SECTION BG */
+.why-section {
+  background-color: black;   /* screenshot approx */
+  padding: 80px 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* CONTAINER */
+.why-container {
+  width: 1200px;
+}
+
+/* CARD */
+.why-card {
+  background-color: #181A1B;
+  border-radius: 20px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+/* LEFT CONTENT */
+.why-content {
+  width: 60%;
+}
+
+/* HEADING */
+.why-content h2 {
+  color: white;
+  font-size: 32px;
+  margin-bottom: 20px;
+  padding-left: 10px; /* 👈 thoda left space */
+}
+
+/* LIST */
+.why-content ul {
+  list-style: none;
+  padding-left: 10px;
+}
+
+/* LIST ITEMS */
+.why-content ul li {
+  color: #dcdcdc;
+  margin-bottom: 18px;
+  line-height: 1.6;
+  position: relative;
+  padding-left: 30px;
+}
+
+/* CUSTOM BULLET */
+.why-content ul li::before {
+  content: "✔";
+  color: #00c2a8;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 18px;
+}
+
+/* RIGHT IMAGE */
+.why-image img {
+  width: 380px;    
+  height: 330px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+
+/* ---------------------maldives supervisors--------------------------------------------------- */
+/* SECTION BG */
+.supervisors-section {
+  background-color: #08352D;  
+  padding: 80px 0;
+}
+
+/* TOP HEADING */
+.supervisors-title {
+  text-align: center;
+  color: white;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+
+/* CONTAINER */
+.supervisors-container {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;  
+  gap: 40px;
+}
+
+/* LEFT IMAGE */
+.supervisors-image img {
+  width: 450px;     
+  height: 580px;
+  border-radius: 18px;
+  object-fit: cover;
+  border: 2px solid #9bd5c0;
+}
+
+/* RIGHT CONTENT */
+.supervisors-content {
+  color: white;
+  width: 55%;
+}
+
+/* RIGHT HEADING */
+.supervisors-content h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+/* SMALL SUB TEXT */
+.supervisors-content .sub-text {
+  color: #cce7df;
+  margin-bottom: 10px;
+}
+
+/* PARAGRAPHS */
+.supervisors-content p {
+  line-height: 1.7;
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+/* -------------------------maldives page -therapy-------------------------------------- */
+/* SECTION BACKGROUND */
+.therapy-section {
+  background-color: #181A1B;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  height: 400px;
+}
+
+/* CONTAINER */
+.therapy-container {
+  width: 1200px;
+}
+
+/* CARD */
+.therapy-card {
+  background-color: #111111;
+  border-radius: 20px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+/* LEFT CONTENT */
+.therapy-content {
+  width: 55%;
+  color: white;
+}
+
+/* MAIN HEADING */
+.therapy-content h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  padding-left: 8px;  
+}
+
+/* PARAGRAPH */
+.therapy-para {
+  color: #cfcfcf;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+/* H2 */
+.therapy-content h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+/* LIST */
+.therapy-list p {
+  margin-bottom: 18px;
+  line-height: 1.6;
+  position: relative;
+  padding-left: 28px;
+}
+
+/* SPAN BULLET */
+.therapy-list span {
+  position: absolute;
+  left: 0;
+  color: #00c2a8;
+  font-size: 18px;
+}
+
+/* RIGHT IMAGE */
+.therapy-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.therapy-image img {
+  width: 420px;
+  height: 300px;
+  border-radius: 15px;
+  object-fit: cover;
+  border: 2px solid #9bd5c0;
+}
+
+
+/* ------------------------maldives coming soon---------------------------------------------------- */
+/* SECTION BG */
+.clinic-section {
+  background-color: #0b4f45;
+  padding: 80px 0;
+  height: 450px;
+}
+
+/* CONTAINER */
+.clinic-container {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+/* LEFT IMAGE */
+.clinic-image img {
+  width: 550px;
+  height: 300px;
+  border-radius: 18px;
+  object-fit: cover;
+  border: 2px solid #2f6f64;
+}
+
+/* RIGHT CONTENT */
+.clinic-content {
+  width: 55%;
+  color: white;
+  margin-bottom: 10px;
+  margin-left: 0px;
+}
+
+/* MAIN HEADING */
+.clinic-content h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+/* PARAGRAPH */
+.clinic-content p {
+  color: #cfd8d5;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* SMALL HEADING */
+.clinic-content h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+/* LIST STYLE EXACT LIKE SS */
+.clinic-list {
+  list-style: none;
+  padding: 0;
+}
+
+.clinic-list li {
+  margin-bottom: 14px;
+  position: relative;
+  padding-left: 28px;
+}
+
+/* GREEN ROUND BULLET */
+.clinic-list li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #00c2a8;
+  font-size: 16px;
+}
+
+
+
+
+/* -------------------------------FAQ section-------------------------------------------------- */
+
+.faq-section {
+  padding: 80px 20px;
+}
+
+.faq-section h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.faq-box {
+  max-width: 1200px;
+  margin: auto;
+  background: #111;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 2px solid #ffffff;
+}
+
+.faq-item {
+  border-bottom: 1px solid #333;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 22px;
+  cursor: pointer;
+}
+
+.faq-question a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  border: none;
+}
+
+.faq-question i {
+  color: #6fffe9;
+  transition: transform 0.3s;
+}
+
+.faq-answer {
+  display: none;
+  padding: 0 22px 18px;
+  color: #ccc;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+
+
+
+/* ------------------------------------------------------------maldives cta--------------------------------------------------- */
+.cta-section {
+  background-color: #12302E; /* dark green bg */
+  padding: 80px 20px;
+  height: 450px;
+}
+
+.cta-wrapper {
+  max-width: 900px;
+  margin: auto;
+  background: #121212;
+  border-radius: 20px;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+/* LEFT */
+.cta-left {
+  flex: 1;
+}
+
+.cta-left h2 {
+  color: #4FEECE;
+  font-size: 36px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.cta-left p {
+  color: #e0e0e0;
+  font-size: 16px;
+  max-width: 400px;
+}
+
+/* RIGHT CARD */
+.cta-card {
+  flex: 1;
+  background: #119383;
+  padding: 30px;
+ 
+  border-radius: 16px;
+  color: #fff;
+}
+
+.cta-card p {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 15px;
+  margin-bottom: 18px;
+}
+
+.cta-card i {
+  font-size: 18px;
+}
+
+/* BUTTON */
+.cta-card button {
+  text-align: center;
+  width: 180px;
+  margin-top: 10px;
+  background: #0f0f0f;
+  color: #59ffe6;
+  border: none;
+  padding: 12px 22px;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cta-card button:hover {
+  background: #000;
+}
+
+
+/* --------------------------------------------All services-------------------------------------------- */
+.Clinic-banner {
+  height: 200px;
+  width: 100%;
+  background-color: #1c1c1c;   /* Dark background */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Clinic-banner h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+
+
+
+.offer-section {
+  background: #123a3a;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.offer-section h2 {
+  color: #6fffe9;
+  font-size: 46px;
+  margin-bottom: 50px;
+}
+
+/* Cards Grid */
+.offer-cards {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+/* Card */
+.offer-card {
+  background: #151a1a;
+  padding: 35px 25px;
+  border-radius: 18px;
+  text-align: left;
+  color: #fff;
+}
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 18px;
+}
+
+
+
+/* Icon */
+.icon-box {
+  width: 60px;
+  height: 60px;
+  background: #0f9d85;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  margin-bottom: 0; /* remove */
+  flex-shrink: 0;
+}
+
+
+.offer-card h3 {
+ font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.offer-card p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #cfdada;
+  margin-bottom: 25px;
+}
+
+/* Button */
+.offer-card button {
+  background: #0f9d85;
+  color: #fff;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  width: 250px;
+  font-size: 16px;
+}
+
+/* Last row center */
+.offer-card:nth-child(4),
+.offer-card:nth-child(5) {
+  grid-column: span 1;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .offer-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .offer-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+
+/* ----------------------------------phychological School------------------------------------------------------ */
+.phychological-banner {
+  height: 200px;
+  width: 100%;
+  background-color: #1c1c1c;   /* Dark background */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phychological-banner h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+}
+/* ------------------------------------------------phychological section 2------------------------------------------ */
+
+.assessment-section {
+  background: #0e1a1a;
+  padding: 80px 0;
+  color: #ffffff;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+/* LEFT SIDE */
+.left {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.assessment-img {
+  min-width: 600px;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+.main-heading {
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+.main-heading span {
+  color: #32d6c6;
+  margin-bottom: 3px;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #cfd8dc;
+  margin-bottom: 30px;
+}
+
+.sub-heading {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.custom-list {
+  list-style: circle;
+  padding-left: 20px;
+}
+
+.custom-list li {
+  margin-bottom: 12px;
+  color: #cfd8dc;
+}
+
+/* RIGHT SIDE */
+.right {
+  width: 30%;
+}
+
+.form-box {
+  background: #123232;
+  padding: 40px 35px;
+  border-radius: 20px;
+}
+
+.form-box h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #32d6c6;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 15px;
+  margin-bottom: 6px;
+}
+
+input,
+textarea {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background: #1f2f2f;
+  color: #fff;
+  outline: none;
+}
+
+textarea {
+  min-height: 120px;
+  resize: none;
+}
+
+button {
+  margin-top: 25px;
+  padding: 14px;
+  background: #32d6c6;
+  color: #0e1a1a;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #28b4a7;
+}
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+  .container {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------indivisual therapy-------------------------------------------- */
+/* SECTION BACKGROUND */
+.assess-section-two {
+  background: linear-gradient(90deg, #0e1a1a, #123232);
+  padding: 80px 0;
+  color: #fff;
+}
+
+/* CONTAINER */
+.assess-container {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+/* LEFT IMAGE */
+.assess-left {
+  width: 50%;
+}
+
+.assess-img {
+  width: 100%;
+  height: 300px;     /* image height like ss */
+  object-fit: cover;
+  border-radius: 15px;
+  border: 2px solid #2c3e3e;
+}
+
+/* RIGHT CONTENT */
+.assess-right {
+  width: 50%;
+}
+
+/* HEADING */
+.assess-heading {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+/* PARAGRAPH */
+.assess-para {
+  color: #cfd8dc;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+/* LIST */
+.assess-list {
+  list-style: none;
+  padding: 0;
+}
+
+.assess-list li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 14px;
+  color: #d7e0e0;
+  font-size: 16px;
+}
+
+/* GREEN CHECK CIRCLE */
+.assess-list li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  top: 1px;
+  width: 18px;
+  height: 18px;
+  background: #32d6c6;
+  color: #0e1a1a;
+  border-radius: 50%;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* --------------------------------------------benefits of phychological therapy-------------------------------------- */
+.benefit-section {
+  background-color: #0c0f0f; /* almost black */
+  padding: 90px 0;
+}
+
+/* INNER CARD */
+.benefit-card {
+  max-width: 1200px;
+  margin: auto;
+  background-color: #151b1b;
+  border-radius: 18px;
+  padding: 50px 60px;
+  display: flex;
+  align-items: center;
+  gap: 60px; /* space between image & content */
+}
+
+/* LEFT CONTENT */
+.benefit-content {
+  flex: 1;
+  color: #ffffff;
+}
+
+.benefit-content h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 22px;
+}
+
+/* LIST */
+.benefit-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.benefit-list span {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* ICON */
+.benefit-list svg {
+  color: #2de2c4; /* same mint green */
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+/* RIGHT IMAGE */
+.benefit-image {
+  flex: 1;
+}
+
+.benefit-image img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+
+
+
+/* ------------------------- new indivisual single therapy--------------------------------------------------------- */
+.indivisual-banner {
+  height: 200px;
+  width: 100%;
+  background-color: #1c1c1c;   /* Dark background */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.indivisual-banner h2 {
+  color: white;
+  font-size: 29px;
+  font-weight: 600;
+}
+/* SECTION BACKGROUND */
+.therapy-section {
+  background-color: #33333333;
+  padding: 80px 0;
+  height: 800px;
+}
+
+/* CONTAINER */
+.therapy-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 60px;
+  padding: 0 20px;
+  align-items: flex-start;
+}
+
+/* LEFT SIDE */
+.therapy-left {
+  flex: 1;
+  color: #ffffff;
+}
+
+.therapy-img {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 16px;
+  margin-bottom: 30px;
+}
+
+.therapy-left h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.therapy-left h2 span {
+  color: #4ef0c2;
+}
+
+.therapy-left p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #d1d5d5;
+  margin-bottom: 15px;
+}
+
+/* RIGHT CARD */
+.therapy-right {
+  width: 420px;
+  background: #0f3c3c;
+  padding: 28px;
+  border-radius: 20px;
+}
+
+/* RIGHT HEADING */
+.therapy-right h2 {
+  color: #4ef0c2;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* FORM */
+.therapy-form {
+  background: #1f2223;
+  padding: 20px;
+  border-radius: 16px;
+  
+}
+
+.therapy-form label {
+  color: #ffffff;
+  font-size: 14px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.therapy-form input,
+.therapy-form textarea {
+  width: 100%;
+  background: #2a2f2f;
+  border: 1px solid #3b4444;
+  color: #ffffff;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  height: 10px;
+}
+
+.therapy-form textarea {
+  height: 20px;
+  
+}
+
+/* BUTTON */
+.therapy-form button {
+  width: 100%;
+  background: #0f9d85;
+  color: #ffffff;
+  border: none;
+  padding: 14px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+
+/* -----------------------------------------------indivisual page  ka therapy section---------------------------------------- */
+
+.therapy-session {
+  background-color: #0E947921;
+  padding: 90px 0;
+}
+
+/* CONTAINER */
+.therapy-session-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+
+
+
+  padding: 0 20px;
+  height: 300px;
+}
+
+/* LEFT IMAGE */
+.therapy-session-img img {
+  width: 480px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 18px;
+}
+
+/* RIGHT CONTENT */
+.therapy-session-content {
+  flex: 1;
+  color: #e6eded;
+}
+
+/* HEADING */
+.therapy-session-content h2 {
+  font-size: 29px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 18px;
+}
+
+/* PARAGRAPH */
+.therapy-session-content p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #d1dddd;
+  margin-bottom: 28px;
+  max-width: 700px;
+}
+
+/* LIST */
+.therapy-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.therapy-list li {
+  position: relative;
+  padding-left: 34px;
+  margin-bottom: 16px;
+  font-size: 15.5px;
+  line-height: 1.6;
+  color: #e8f2f2;
+}
+
+/* CUSTOM ICON (GREEN CIRCLE + CHECK) */
+.therapy-list li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 22px;
+  height: 22px;
+  background-color: #3fe0b3;
+  color: #083c36;
+  font-size: 13px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+/* -------------------------------------Approach sesction0------------------------------------------------------ */
+/* SECTION BG */
+.approach-section {
+  background-color: #0b3a33; /* dark green */
+  padding: 50px 0;
+  
+}
+
+/* MAIN WRAPPER */
+.approach-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 60px;
+  align-items: flex-start;
+  padding: 0 20px;
+  height: 350px;
+}
+
+/* LEFT IMAGE */
+.approach-image img {
+  width: 100%;
+  max-width: 480px;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 18px;
+}
+
+/* RIGHT CONTENT */
+.approach-content {
+  flex: 1;
+  padding-top: 2px; /* thoda upar shift */
+}
+
+/* HEADING */
+.approach-content h2 {
+  color: #ffffff;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+/* TOP PARA */
+.approach-intro {
+  color: #e0f2ef;
+  font-size: 16px;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+/* LIST */
+.approach-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 15px 0;
+}
+
+.approach-list li {
+  display: flex;
+  align-items: flex-start;
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+/* ICON SPAN */
+.approach-list span {
+  color: #35d0b6;
+  font-size: 18px;
+  margin-right: 12px;
+  margin-top: 2px;
+}
+
+/* BOTTOM PARA */
+.approach-footer {
+  color: #d9f3ee;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+/* ---------------------------------------PARENTAL page TRAINING ---------------------------------------------------- */
+.parental-banner {
+  height: 200px;
+  width: 100%;
+  background-color: #1c1c1c;   /* Dark background */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parental-banner h2 {
+  color: white;
+  font-size: 29px;
+  font-weight: 600;
+}
+
+
+
+.parental-section {
+  background: #0f1f1c;
+  padding: 60px 20px;
+  
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+/* LEFT SIDE */
+.left-content {
+  flex: 1.2;
+  color: #ffffff;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 25px;
+}
+
+.left-content h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.left-content h2 span {
+  color: #2fd7b5; /* teal color like SS */
+}
+
+.left-content p {
+  color: #cfcfcf;
+  line-height: 1.7;
+  margin-bottom: 25px;
+}
+
+.approach-list {
+  list-style: none;
+}
+
+.approach-list li {
+  margin-bottom: 12px;
+  padding-left: 25px;
+  position: relative;
+}
+
+.approach-list li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #2fd7b5;
+  font-size: 14px;
+}
+
+/* RIGHT FORM */
+.right-form {
+  flex: 0.9;
+  background-color: #132824;
+  padding: 30px;
+  border-radius: 15px;
+  height: 700px;
+}
+
+.right-form h3 {
+  color: #2fd7b5;
+  margin-bottom: 30px;
+  font-size: 26px;
+  text-align: center;
+
+}
+
+.right-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.right-form input,
+.right-form textarea {
+  background: #3b3b3b;
+  border: none;
+  padding: 12px 14px;
+  border-radius: 8px;
+  color: #fff;
+  height: 100px;
+}
+
+.right-form textarea {
+  resize: none;
+  height: 100px;
+}
+
+.right-form input::placeholder,
+.right-form textarea::placeholder {
+  color: #b5b5b5;
+}
+
+.right-form button {
+  margin-top: 10px;
+  background: #2fd7b5;
+  color: #0f1f1c;
+  border: none;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 150px;
+}
+
+.right-form button:hover {
+  background: #25bfa1;
+}
+
+
+
+/* -----------------------------learn section---------------------------------------- */
+.learn-section {
+  background-color: #18302c; /* same dark green */
+  padding: 70px 20px;
+}
+
+.learn-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+/* IMAGE */
+.learn-image {
+  flex: 1;
+}
+
+.learn-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+/* CONTENT */
+.learn-content {
+  flex: 1.2;
+  color: #ffffff;
+}
+
+.learn-content h2 {
+  font-size: 34px;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+.learn-content h2 span {
+  color: #2fd7b5;
+}
+
+/* LIST */
+.learn-list {
+  list-style: none;
+}
+
+.learn-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 14px;
+  line-height: 1.6;
+  color: #e6e6e6;
+  font-size: 16px;
+}
+
+/* ICON CIRCLE */
+.learn-list li::before {
+  content: "➜";
+  color: #2fd7b5;
+  font-size: 16px;
+  margin-top: 3px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+  .learn-container {
+    flex-direction: column;
+  }
+
+  .learn-content h2 {
+    font-size: 28px;
+  }
+}
+
+
+
+
+/* ----------------------------benefits section----------------------------------------------- */
+.benefit-section {
+  background-color: #141717; /* dark bg like SS */
+  padding: 80px 20px;
+}
+
+.benefit-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* LEFT */
+.benefit-content {
+  flex: 1;
+  color: #ffffff;
+}
+
+.benefit-content h2 {
+  font-size: 29px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.benefit-content h2 span {
+  color: #2fd7b5;
+}
+
+/* LIST */
+.benefit-list {
+  list-style: none;
+}
+
+.benefit-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 4px;
+  color: #dcdcdc;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.benefit-list li::before {
+  content: "●";
+  color: #2fd7b5;
+  font-size: 18px;
+  margin-top: 2px;
+}
+
+/* RIGHT IMAGE */
+.benefit-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end; /* image right shift */
+  margin-left: 60px; /* extra right feel */
+}
+
+.benefit-image img {
+  width: 85%;
+  border-radius: 18px;
+  height: 400px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+  .benefit-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .benefit-image {
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .benefit-image img {
+    width: 100%;
+  }
+}
+
+
+
+/* -----------------------------------------Family page therapy---------------------------------------------------- */
+.Family-banner {
+  height: 200px;
+  width: 100%;
+  background-color: #1c1c1c;   /* Dark background */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Family-banner h2 {
+  color: white;
+  font-size: 29px;
+  font-weight: 600;
+}
+
+/* Main Section */
+.family-section {
+  display: flex;
+  gap: 40px;
+  padding: 60px 80px;
+  background-color: #0f0f0f;
+  color: white;
+}
+
+/* LEFT SIDE */
+.family-left {
+  flex: 1;
+}
+
+.family-image {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+/* Headings */
+.family-left h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.family-left h2 span {
+  color: #1fe0b3; /* green color like screenshot */
+}
+
+.family-left p {
+  color: #cfcfcf;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.family-left h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.family-left h3 span {
+  color: #1fe0b3;
+}
+
+/* LIST STYLE */
+.family-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #cfcfcf;
+}
+
+.family-list li {
+  margin-bottom: 10px;
+}
+
+/* RIGHT SIDE */
+.family-right {
+  flex: 1;
+  background: linear-gradient(180deg, #0f3f3b, #0a2c29);
+  padding: 40px;
+  border-radius: 20px;
+}
+
+/* Form Title */
+.form-title {
+  text-align: center;
+  color: #1fe0b3;
+  margin-bottom: 30px;
+}
+
+/* Form Styling */
+.family-right form {
+  display: flex;
+  flex-direction: column;
+}
+
+.family-right label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.family-right input,
+.family-right textarea {
+  margin-bottom: 20px;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #555;
+  background-color: #1a1a1a;
+  color: white;
+
+}
+
+.family-right input:focus,
+.family-right textarea:focus {
+  outline: none;
+  border: 1px solid #1fe0b3;
+}
+
+/* Button */
+.family-right button {
+  padding: 14px;
+  background-color: #1fe0b3;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 200px;
+  transition: 0.3s;
+}
+
+.family-right button:hover {
+  background-color: #16c29c;
+}
+
+
+
+ /* -------------------------------------------------Family therapy----------------------------------------------------- */
+
+.family-therapy {
+  background: linear-gradient(135deg, #0f2e2a, #0d3b35);
+  padding: 80px 0;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  gap: 60px;
+}
+
+/* LEFT IMAGE */
+.left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.left img {
+  width: 600px;
+  max-width: 420px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  height: 500px;
+}
+
+/* RIGHT CONTENT */
+.right {
+  flex: 1.2;
+  color: #fff;
+  padding-top: 20px; /* thoda top ki side */
+}
+
+.right h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+/* CUSTOM LIST */
+.custom-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.custom-list li {
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 7px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Custom bullet icon */
+.custom-list li::before {
+  content: "➜";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #3de0c1;
+  font-size: 18px;
+}
+
+
+/* ---------------------------Group page therapy---------------------------------------- */
+/* SECTION BACKGROUND */
+.group-section {
+  background: linear-gradient(135deg, #0b1f1d, #0e2c28);
+  padding: 90px 0;
+}
+
+/* CONTAINER */
+.group-container {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  gap: 70px;
+}
+
+/* LEFT SIDE */
+.group-left {
+  flex: 1.35;   /* left side slightly wider */
+  color: #ffffff;
+}
+
+.group-image {
+  width: 100%;
+  height: 420px;   /* similar to screenshot */
+  object-fit: cover;
+  border-radius: 18px;
+  margin-bottom: 35px;
+}
+
+/* MAIN HEADING */
+.heading {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+.heading span {
+  color: #38e0c2;   /* green highlight */
+}
+
+/* SUB HEADING */
+.sub-heading {
+  font-size: 28px;
+  margin: 40px 0 20px;
+  font-weight: 600;
+}
+
+.sub-heading span {
+  color: #38e0c2;
+}
+
+/* PARAGRAPH */
+.text {
+  color: #c7d4d2;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+/* CUSTOM LIST */
+.styled-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.styled-list li {
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 14px;
+  color: #e5f6f3;
+}
+
+.styled-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 6px;
+  width: 18px;
+  height: 18px;
+  background-color: #1dbf9f;
+  border-radius: 50%;
+}
+
+.styled-list li::after {
+  content: "›";
+  position: absolute;
+  left: 6px;
+  top: 1px;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+/* RIGHT SIDE */
+.group-right {
+  flex: 1;   /* slightly smaller */
+  display: flex;
+  justify-content: center;
+}
+
+/* FORM CARD */
+.form-card {
+  background: linear-gradient(135deg, #0f3a35, #0b2a26);
+  padding: 45px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 430px;   /* slightly smaller than left */
+}
+
+/* FORM HEADING */
+.form-heading {
+  text-align: center;
+  color: #38e0c2;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+/* FORM */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #eaf5f3;
+}
+
+input,
+textarea {
+  margin-bottom: 18px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #2f4f4b;
+  background-color: #1b2e2c;
+  color: #ffffff;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #38e0c2;
+}
+
+/* BUTTON */
+button {
+  margin-top: 10px;
+  padding: 14px;
+  border-radius: 8px;
+  border: none;
+  background-color: #1dbf9f;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #18a88b;
+}
+
+
+
+/* ----------------------------------------------group section 2------------------------------------- */
+.group-therapy-section {
+  background: linear-gradient(135deg, #0f2f2f, #123c3c);
+  padding: 80px 0;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+/* Left Image */
+.left img {
+  width: 520px;
+  height: 360px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+/* Right Side */
+.right {
+  max-width: 550px;
+}
+
+.right h2 {
+  font-size: 36px;
+  color: #ffffff;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+/* List Styling */
+.therapy-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.therapy-list li {
+  color: #e0f7f7;
+  font-size: 18px;
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+}
+
+/* Custom Green Bullet */
+.therapy-list li::before {
+  content: "✔";
+  background: #19b6a5;
+  color: #0f2f2f;
+  font-size: 14px;
+  font-weight: bold;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------------------School mental health page-------------------------------------------------- */
+.School-banner {
+  height: 200px;
+  width: 100%;
+  background-color: #010101;   
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.School-banner h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+
+/* ---------------------------------------------------school section 2----------------------------------------------------- */
+
+/* SECTION BACKGROUND */
+.mental-section {
+  background-color: #EDF8F7;
+  padding: 80px 0;
+  color: #ffffff;
+
+}
+
+/* CONTAINER FLEX */
+.mental-container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  gap: 60px;
+  align-items: flex-start;
+}
+
+/* LEFT SIDE */
+.mental-left {
+  flex: 1;
+}
+
+/* IMAGE SIZE LIKE SCREENSHOT */
+.mental-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 30px;
+}
+
+/* HEADING */
+.mental-heading {
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.mental-heading span {
+  color: #28d3b6;   /* green color like screenshot */
+}
+
+/* PARAGRAPH */
+.mental-para {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #000000;
+  margin-bottom: 25px;
+}
+
+/* LIST HEADING */
+.list-heading {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* LIST STYLE */
+.mental-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mental-list li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  font-size: 15px;
+  color: #000000;
+}
+
+/* Custom bullet */
+.mental-list li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #28d3b6;
+  font-size: 14px;
+}
+
+/* RIGHT SIDE FORM CARD */
+.mental-right {
+  flex: .8;
+  background: linear-gradient(180deg, #12302E, #08161b);
+  padding: 30px;
+  border-radius: 12px;
+  /* width: 100px; */
+}
+
+/* FORM TITLE */
+.form-title {
+  color: #28d3b6;
+  font-size: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* FORM */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+
+/* LABEL */
+.contact-form label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  margin-top: 12px;
+  color: #333333;
+}
+
+/* INPUT */
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  background-color: #ffffff;
+  
+  font-size: 14px;
+}
+
+.contact-form textarea {
+  min-height: 100px;
+  resize: none;
+}
+
+/* BUTTON */
+.submit-btn {
+  margin-top: 25px;
+  padding: 12px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 150px;
+}
+
+.submit-btn:hover {
+  background-color: #1fbfa5;
+}
+
+
+
+
+/* ------------------------------------school section 3-------------------------------------------------------- */
+
+ .pillar-section {
+  background-color: #ffffff;
+  padding: 80px 20px;
+} 
+
+.pillar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+} */
+
+/* Left Image */
+.pillar-image img {
+  width: 420px;       /* Screenshot approx width */
+  height: 280px;      /* Screenshot approx height */
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+/* Right Content */
+.pillar-content {
+  flex: 1;
+}
+
+.pillar-content h2 {
+  color: #ffffff;
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.pillar-content p {
+  color: #cccccc;
+  margin-bottom: 25px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* List */
+.pillar-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pillar-content li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 18px;
+  color: #e6e6e6;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.check-icon {
+  color: #1dd1a1;
+  margin-right: 12px;
+  margin-top: 5px;
+  font-size: 18px;
+} */
+
+
+
+/* -------------------------------------school image 4--------------------------------------------------- */
+.parent-section {
+  background-color: #12B99721;
+  padding: 90px 20px;
+  
+}
+
+.parent-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  height: 400px;
+}
+
+/* LEFT SIDE */
+.parent-content {
+  flex: 1;
+}
+
+.parent-content h2 {
+  color: #000000;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.parent-content p {
+  color: #000000;
+  font-size: 16px;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+/* LIST */
+.parent-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.parent-content li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 18px;
+  font-size: 15px;
+  color: #000000;
+  line-height: 1.6;
+}
+
+.check-icon {
+  color: #1dd1a1;
+  font-size: 18px;
+  margin-right: 12px;
+  margin-top: 4px;
+}
+
+/* RIGHT IMAGE */
+.parent-image img {
+  width: 460px;      /* Screenshot approx */
+  height: 300px;     /* Screenshot approx */
+  object-fit: cover;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+
+
+/* ----------------------------------------school section 5----------------------------------------------------------- */
+.issues-section {
+  background-color: #ffffff;
+  padding: 90px 20px;
+}
+
+.issues-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+/* LEFT IMAGE */
+.issues-image img {
+  width: 480px;      /* screenshot approx */
+  height: 320px;     /* screenshot approx */
+  object-fit: cover;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+}
+
+/* RIGHT CARD */
+.issues-card {
+  flex: 1;
+  background: #1a1f22;  /* dark card bg */
+  padding: 40px 35px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+/* Heading */
+.issues-card h2 {
+  color: #ffffff;
+  font-size: 28px;
+  margin-bottom: 18px;
+}
+
+/* Paragraph */
+.issues-card p {
+  color: #cccccc;
+  font-size: 16px;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+/* List */
+.issues-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.issues-card li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  font-size: 15px;
+  color: #e6e6e6;
+}
+
+.check-icon {
+  color: #1dd1a1;
+  margin-right: 12px;
+  font-size: 16px;
+}
+/* --------------------------------------school section 6----------------------------------------------------------- */
+.process-section {
+  background: linear-gradient(to right, #0f2e2a, #0c1f1c);
+  padding: 80px 0;
+}
+
+.process-container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+/* Left Side */
+.process-content {
+  flex: 1;
+  color: #ffffff;
+}
+
+.process-heading {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.process-list {
+  list-style: none;
+  padding: 0;
+}
+
+.process-list li {
+  margin-bottom: 20px;
+  padding-left: 30px;
+  position: relative;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+/* Custom Bullet */
+.process-list li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  color: #2dd4bf;
+  font-size: 18px;
+}
+
+/* Right Side */
+.process-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.process-image img {
+  width: 500px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+
+/* ----------------------------------------school 7-------------------------------------------------------- */
+.work-section {
+  background: #0f1f1d;
+  padding: 100px 0;
+}
+
+.work-container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+/* Left Image */
+.work-image img {
+  width: 520px;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.1);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+}
+
+/* Right Card */
+.work-card {
+  flex: 1;
+  background: #1a2a28;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* Heading */
+.work-heading {
+  font-size: 34px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* Paragraph */
+.work-para {
+  color: #cbd5d1;
+  margin-bottom: 25px;
+  font-size: 16px;
+}
+
+/* List */
+.work-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.work-list li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 18px;
+  color: #e2e8e5;
+  font-size: 16px;
+}
+
+/* Custom Icon Bullet */
+.work-list li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  color: #2dd4bf;
+  font-size: 18px;
+}
+
+
+/* ---------------------------------------------School FAQ-------------------------------------------------------- */
+/* .faq-section {
+  background: linear-gradient(to right, #0f2e2a, #0c1f1c);
+  padding: 100px 0;
+}
+
+.faq-container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.faq-heading {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+/* Box */
+.faq-box {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Item */
+.faq-item {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Question Row */
+.faq-question {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 22px 25px;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 17px;
+  transition: background 0.3s ease;
+}
+
+.faq-question:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* + Icon */
+.faq-icon {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2dd4bf;
+  width: 25px;
+}
+
+/* Answer */
+.faq-answer {
+  padding: 0 25px 20px 65px;
+  color: #cbd5d1;
+  font-size: 15px;
+  line-height: 1.6;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------framework School page--------------------------------------------------- */
+/* SECTION BACKGROUND */
+.framework-section {
+  background: linear-gradient(135deg, #0b2d2f, #0a1e1f);
+  padding: 90px 0;
+  color: #ffffff;
+}
+
+/* TOP CENTER CONTENT */
+.framework-top {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto 60px auto;
+}
+
+.framework-top h2 {
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.framework-top p {
+  color: #cbd5e1;
+  font-size: 16px;
+}
+
+/* FLEX CONTAINER */
+.framework-container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+/* LEFT SIDE */
+.framework-left {
+  flex: 1;
+}
+
+.framework-left h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.framework-left p {
+  color: #000000;
+  margin-bottom: 25px;
+  font-size: 16px;
+}
+
+/* MAIN LIST */
+.main-list {
+  color: #000000;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-list > li {
+  margin-bottom: 18px;
+  position: relative;
+  padding-left: 28px;
+  line-height: 1.6;
+}
+
+/* Green Circle Icon */
+.main-list > li::before {
+  content: "➜";
+  position: absolute;
+  left: 0;
+  color: #2dd4bf;
+  font-size: 16px;
+}
+
+/* Bold span inside list */
+.main-list span {
+  font-weight: 600;
+  color: #000000;
+}
+
+/* SUB LIST */
+.sub-list {
+  list-style: none;
+  margin-top: 10px;
+  padding-left: 20px;
+ 
+}
+
+.sub-list li {
+  margin-bottom: 8px;
+  position: relative;
+  padding-left: 20px;
+  color: #000000;
+}
+
+/* Arrow style for nested list */
+.sub-list li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: #2dd4bf;
+}
+
+/* RIGHT SIDE IMAGE */
+.framework-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.framework-right img {
+  width: 100%;
+  max-width: 500px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+/* -----------------------------------------------Corporate mental health program page------------------------------------------- */
+.Corporate-banner {
+  height: 200px;
+  width: 100%;
+  background-color: #1c1c1c; 
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Corporate-banner h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+
+
+/* -----------------------------------------------corporate first section------------------------------------------------------ */
+.corporate-section {
+  display: flex;
+  gap: 40px;
+  padding: 60px 80px;
+}
+
+/* LEFT SIDE */
+.left-side {
+  flex: 1;
+}
+
+.corporate-img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.content {
+  margin-top: 30px;
+}
+
+.content h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.content h2 span {
+  color: #1ba784;   /* green like screenshot */
+}
+
+.content p {
+  margin: 20px 0;
+  font-size: 18px;
+  color: #000000;
+}
+
+.content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.content ul li {
+  margin-bottom: 15px;
+  color: #000000;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+
+}
+
+.icon {
+  color: #1ba784;
+  margin-right: 10px;
+}
+
+/* RIGHT SIDE */
+.right-side {
+  flex: 1;
+  background-color: #d9e4e3;   /* light green bg */
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 500px;
+  background-color: #e5ecec;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.form-heading {
+  text-align: center;
+  font-size: 36px;
+  color: #1ba784;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #333333;
+}
+
+form input,
+form textarea {
+  margin-bottom: 20px;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  background-color: #ffffff;
+  
+}
+
+form textarea {
+  height: 100px;
+  resize: none;
+}
+
+form button {
+  background-color: #1ba784;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  cursor: pointer;
+  width: 150px;
+}
+
+form button:hover {
+  background-color: #15916f;
+}
+
+
+
+
+
+
+
+
+/* --------------------------------section 2 of corporate ------------------------------------------------------ */
+.framework-section {
+  background-color: #12B99721; /* light green background */
+  padding: 80px 100px;
+}
+
+/* Center Heading */
+.framework-top {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.framework-top h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.framework-top p {
+  font-size: 18px;
+  color: #000000;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+/* Left + Right layout */
+.framework-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+/* Left Side */
+.framework-left {
+  flex: 1;
+}
+
+.framework-left h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.framework-left p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.framework-left ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.framework-left li {
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+/* Right Side */
+.framework-right {
+  flex: 1;
+  margin-top: 40px; /* image slightly lower than heading */
+}
+
+.framework-right img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+
+
+/* ------------------------------------------------corporate 3---------------------------------------------- */
+.pillar-section {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  padding: 80px 0;
+}
+
+.pillar-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  padding: 40px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+/* LEFT SIDE */
+.pillar-left {
+  flex: 1;
+}
+
+.pillar-left h2 {
+  font-size: 28px;
+  color: #000000;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.pillar-left span {
+  color: #00e0c6;
+}
+
+.pillar-left p {
+  color: #000000;
+  margin-bottom: 25px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.pillar-left ul {
+  list-style: none;
+  padding: 0;
+}
+
+.pillar-left ul li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #ffffff;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+/* CHECK ICON */
+.check-icon {
+  color: #00e0c6;
+  font-size: 18px;
+}
+
+/* RIGHT IMAGE */
+.pillar-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.pillar-right img {
+  width: 100%;
+  max-width: 450px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+/* --------------------------------------corporate 4 --------------------------------------------------- */
+.organization-section {
+  background: linear-gradient(to right, #0f2027, #134e4a);
+  padding: 100px 0;
+}
+
+.organization-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+  padding: 0 40px;
+}
+
+/* LEFT SIDE */
+.organization-left {
+  flex: 1;
+}
+
+.organization-left h2 {
+  font-size: 22px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.organization-left span {
+  color: #ffffff;
+}
+
+.organization-left p {
+  color: #d1d5db;
+  font-size: 17px;
+  margin-bottom: 30px;
+  line-height: 1.7;
+}
+
+.organization-left ul {
+  list-style: none;
+  padding: 0;
+}
+
+.organization-left ul li {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* CHECK ICON */
+.check-icon {
+  color: #22d3ee;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+/* RIGHT SIDE IMAGE */
+.organization-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.organization-right img {
+  width: 500px;
+  height: 330px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 3px solid #1f2937;
+}
+
+
+/* ----------------------------------corporate section 5------------------------------------------------------------------ */
+.challenges-section {
+  background: linear-gradient(to right, #0f2027, #111827);
+  padding: 100px 0;
+}
+
+.challenges-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+  padding: 40px;
+  background-color: #0b1120;
+  border-radius: 25px;
+}
+
+/* LEFT IMAGE */
+.challenges-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.challenges-left img {
+  width: 500px;
+  height: 330px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 3px solid #1f2937;
+}
+
+/* RIGHT CONTENT */
+.challenges-right {
+  flex: 1;
+}
+
+.challenges-right h2 {
+  font-size: 25px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.challenges-right p {
+  color: #d1d5db;
+  font-size: 17px;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.challenges-right ul {
+  list-style: none;
+  padding: 0;
+}
+
+.challenges-right ul li {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 18px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+/* CHECK ICON */
+.icon {
+  color: #22d3ee;
+  font-size: 18px;
+}
+
+
+
+/* ------------------------------------corporate section 6----------------------------------------------------------- */
+.process-section {
+  background-color: #12B997;
+  padding: 100px 0;
+}
+
+.process-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+  padding: 0 40px;
+}
+
+/* LEFT SIDE */
+.process-left {
+  flex: 1;
+}
+
+.process-left h2 {
+  font-size: 25px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.process-left p{
+  margin-bottom: 10px;
+}
+
+.process-left ul {
+  list-style: none;
+  padding: 0;
+}
+
+.process-left ul li {
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+  margin-bottom: 15px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* CHECK ICON */
+.icon {
+  color: #22d3ee;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+/* RIGHT SIDE IMAGE */
+.process-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.process-right img {
+  width: 500px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 3px solid #1f2937;
+}
+
+
+/* --------------------------------------corporate FAQ ------------------------------------------------------------------- */
+.faq-section {
+  background: linear-gradient(to right, #0f2e2b, #133d39);
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.faq-title {
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.faq-box {
+  max-width: 1000px;
+  margin: 0 auto;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+.faq-item {
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+  padding: 25px 30px;
+  text-align: left;
+}
+
+.faq-heading {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.faq-heading h4 {
+  color: #b8f5e9;
+  font-size: 18px;
+  margin: 0;
+}
+
+.icon {
+  font-size: 22px;
+  color: #b8f5e9;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.faq-content {
+  margin-top: 15px;
+  color: #ddd;
+  font-size: 16px;
+  line-height: 1.6;
+  display: none;
+}
+
+.faq-item.active .faq-content {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------booking form------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
