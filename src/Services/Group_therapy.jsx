@@ -1,4 +1,5 @@
 import React from "react";
+import { FaCheckCircle } from "react-icons/fa";
 
 const Group_therapy = () => {
   return (
@@ -7,16 +8,16 @@ const Group_therapy = () => {
         <h2>GROUP THERAPY</h2>
       </section>
 
-      <section class="group-section">
-        <div class="group-container">
-          <div class="group-left">
-            <img src="./group-therapy.jpg" alt=" " class="group-image" />
+      <section className="group-section">
+        <div className="group-container">
+          <div className="group-left">
+            <img src="./group-therapy.jpg" alt=" " className="group-image" />
 
-            <h2 class="heading">
+            <h2 className="heading">
               What is <span>Group Therapy?</span>
             </h2>
 
-            <p class="text">
+            <p className="text">
               Group therapy brings together individuals experiencing similar
               emotional, psychological, or interpersonal challenges in a safe,
               structured setting led by a trained therapist. It provides a
@@ -24,11 +25,11 @@ const Group_therapy = () => {
               mutual support, insight, and a sense of belonging.
             </p>
 
-            <h3 class="sub-heading">
+            <h3 className="sub-heading">
               What Happens in a <span>Group Session?</span>
             </h3>
 
-            <ul class="styled-list">
+            <ul className="styled-list">
               <li>
                 A small group (usually 6–10 members) meets with one or two
                 therapists.
@@ -46,16 +47,16 @@ const Group_therapy = () => {
               </li>
             </ul>
 
-            <p class="text">
+            <p className="text">
               Group therapy may focus on topics such as anxiety, grief,
               self-esteem, interpersonal skills, trauma recovery, or stress
               management.
             </p>
           </div>
 
-          <div class="group-right">
-            <div class="form-card">
-              <h2 class="form-heading">Connect With Us</h2>
+          <div className="group-right">
+            <div className="form-card">
+              <h2 className="form-heading">Connect With Us</h2>
 
               <form>
                 <label>Name *</label>
@@ -84,16 +85,16 @@ const Group_therapy = () => {
       </section>
 
       {/* ----------------------------------------Group therapy 3 ------------------------------------------- */}
-      <section class="group-therapy-section">
-        <div class="container">
-          <div class="left">
+      <section className="group-therapy-section">
+        <div className="container">
+          <div className="left">
             <img src="./group-therapy2.webp" alt=" " />
           </div>
 
-          <div class="right">
+          <div className="right">
             <h2>Why Choose Group Therapy?</h2>
 
-            <ul class="therapy-list">
+            <ul className="therapy-list">
               <li>Feel less alone in your struggles</li>
               <li>Develop social and communication skills</li>
               <li>Gain diverse perspectives and feedback</li>

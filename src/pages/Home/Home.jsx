@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 // import { Mail, MessageCircle, Phone } from "lucide-react";
 import {
   FaBrain,
@@ -10,10 +10,12 @@ import {
 } from "react-icons/fa";
 import { FaCheckCircle, FaEnvelope, FaWhatsapp, FaPhone } from "react-icons/fa";
 import { FaBriefcase, FaHeart, FaUserGraduate, FaUser } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 // import { img2 } from "./assets/img/clinic2.jpg";
 
 const Home = () => {
+  const navigate = useNavigate();
   return (
     <>
       <div className="Home-wrapper">
@@ -23,9 +25,23 @@ const Home = () => {
           </h2>
 
           <div className="Home-action">
-            <button className="primary">REFER A SCHOOL</button>
-            <button className="outline">REFER A ORGANISATION</button>
-            <button className="outline">CONTACT US</button>
+            <button
+              className="primary"
+              onClick={() => navigate("/schoolProgram")}
+            >
+              REFER A SCHOOL
+            </button>
+            <button
+              className="outline"
+              onClick={() => navigate("/corporate_program")}
+            >
+              REFER A ORGANISATION
+            </button>
+
+            {/* CONTACT US */}
+            <button className="outline" onClick={() => navigate("/contact")}>
+              CONTACT US
+            </button>
           </div>
           {/* ------------------------------------------------home content ------------------------------------------------------------ */}
           <section className="Home-content">
@@ -86,7 +102,9 @@ const Home = () => {
                   </ul>
 
                   <div className="btn-wrapper">
-                    <button>Explore Clinic Services</button>
+                    <Link to="/CLINIC_SERVICES">
+                      <button className="card-btn">Learn More</button>
+                    </Link>
                   </div>
                 </div>
 
@@ -124,7 +142,9 @@ const Home = () => {
                   </ul>
 
                   <div className="btn-wrapper">
-                    <button>Learn about School Programs</button>
+                    <button onClick={() => navigate("/schoolProgram")}>
+                      Learn About School program
+                    </button>
                   </div>
                 </div>
 
@@ -162,7 +182,9 @@ const Home = () => {
                   </ul>
 
                   <div className="btn-wrapper">
-                    <button>Explore more about it</button>
+                    <button onClick={() => navigate("/corporate_program")}>
+                      Learn About Corporate program
+                    </button>
                   </div>
                 </div>
               </div>
@@ -358,7 +380,10 @@ const Home = () => {
                     </strong>
                   </div>
 
-                  <button className="maldives-btn">
+                  <button
+                    className="maldives-btn"
+                    onClick={() => navigate("/maldives")}
+                  >
                     Discover DearMinds Maldives
                   </button>
                 </div>
@@ -423,7 +448,10 @@ const Home = () => {
                   <div className="therapy-image-box">
                     <img src="./online-therapy.jpg" alt="Online Therapy" />
 
-                    <button className="therapy-btn1">
+                    <button
+                      className="therapy-btn1"
+                      onClick={() => navigate("/booking")}
+                    >
                       Book Your Online Session Now
                     </button>
                   </div>
@@ -547,7 +575,12 @@ const Home = () => {
                         careers@dearmindsclinic.com
                       </p>
 
-                      <button className="apply-btn">APPLY NOW</button>
+                      <button
+                        className="apply-btn"
+                        onClick={() => navigate("/contact")}
+                      >
+                        APPLY NOW
+                      </button>
                     </div>
                   </div>
                 </div>

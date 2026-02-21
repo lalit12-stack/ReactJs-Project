@@ -132,15 +132,15 @@ const School_program = () => {
         </div>
       </section>
       {/* --------------------------------------------school section 3-------------------------------------------------- */}
-      <section className="pillar-section">
-        <div className="pillar-container">
+      <section className="pillar-section1">
+        <div className="pillar-container1">
           {/* Left Image */}
           <div className="pillar-image">
             <img src=" ./Schoolimage3.webp" alt="Leadership Training" />
           </div>
 
           {/* Right Content */}
-          <div className="pillar-content">
+          <div className="pillar-content1">
             <h2>Pillar 2: For Educators - Training & Empowerment</h2>
 
             <p>
@@ -294,8 +294,8 @@ const School_program = () => {
       </section>
 
       {/* -------------------------------------------school image------------------------------------------------ */}
-      <section className="process-section">
-        <div className="process-container">
+      <section className="process-section1">
+        <div className="process-container1">
           {/* Left Content */}
           <div className="process-content">
             <h2 className="process-heading">

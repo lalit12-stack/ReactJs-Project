@@ -7,7 +7,7 @@ const Corporate_program = () => {
       <section className="Corporate-banner">
         <h2>Corporate mental health program</h2>
       </section>
-      <section className="corporate-section">
+      <section className="corporate-section2">
         {/* LEFT SIDE */}
         <div className="left-side">
           <img
@@ -128,7 +128,7 @@ const Corporate_program = () => {
           </div>
         </div>
       </section>
-      {/* ---------------------------------------------section 3 ----------------------------------------------- */}
+      {/* --------------------------------------------- Corporate section 3 ----------------------------------------------- */}
       <section className="pillar-section">
         <div className="pillar-container">
           {/* LEFT CONTENT */}
@@ -265,8 +265,8 @@ const Corporate_program = () => {
       </section>
       {/* -------------------------------------------corporate section 6----------------------------------------------------- */}
 
-      <section className="process-section">
-        <div className="process-container">
+      <section className="process-section3">
+        <div className="process-container3">
           {/* LEFT CONTENT */}
           <div className="process-left">
             <h2>Who We Work With</h2>

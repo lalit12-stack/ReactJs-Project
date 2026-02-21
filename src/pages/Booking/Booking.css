@@ -1,0 +1,109 @@
+
+
+/* Background Overlay */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Outer Green Box */
+.modal-wrapper {
+  background: linear-gradient(135deg, #6dd5c4, #12b997);
+  padding: 20px;
+  border-radius: 18px;
+}
+
+/* Inner White Card */
+.modal-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 14px;
+  width: 650px;
+  position: relative;
+}
+
+/* Close Button */
+.close-btn {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 22px;
+  cursor: pointer;
+  color: #6c63ff;
+}
+
+/* Heading */
+.modal-card h2 {
+  margin-bottom: 25px;
+  font-size: 26px;
+}
+
+/* Row */
+.row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+input, select {
+  height: 45px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #000;
+  font-size: 14px;
+  width: 100%;
+  color: #000;
+  background-color: #fff;
+}
+
+/* Button */
+.confirm-btn {
+  width: 100%;
+  height: 50px;
+  background: #177e68;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.confirm-btn:hover {
+  background: #136a57;
+}
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #333;
+  transition: 0.3s;
+}
+
+.close-btn:hover {
+  color: red;
+}
+input[type="date"] {
+  color: #000 !important;
+}
+

@@ -12,7 +12,7 @@
 }
 
 
-/* Header */
+
 .navbar {
 height: 200px;
 width: 100%;
@@ -43,17 +43,17 @@ width: 100%;
 .nav a:hover{
   color: #096655;
 }
-.logo img{
-  height: 150px;
-  width: 150px;
+.logo {
+  height: 170px;
+  width: 170px;
 }
-/*----------------------------------dropdown lists-------------------------------------*/
+
 .nav {
   display: flex;
   align-items: center;
 }
 
-/* DROPDOWN */
+
 .dropdown {
   position: relative;
   margin-left: 20px;
@@ -69,7 +69,7 @@ width: 100%;
   display: block;
 }
 
-/* FIRST DROPDOWN */
+
 .dropdown-menu {
   position: absolute;
   top: 100%;
@@ -276,7 +276,7 @@ width: 100%;
 }
 
 .service-card1 h3 {
-  color: #fff;
+  color: #000;
   font-size: 22px;
 }
 
@@ -943,7 +943,7 @@ width: 100%;
 
 
 
-/* ----------------------------------------Footer section-------------------------------------------- */
+/* 
 .footer{
   background-color: #050620;
   color: #ffffff;
@@ -961,7 +961,7 @@ width: 100%;
   padding: 0 60px 0px 60px;
 }
 
-/* COLUMN */
+
 .footer-col img{
   background-color: #EDF8F7;
   height: 90px;
@@ -978,11 +978,9 @@ width: 100%;
   font-size: 16px;
 }
 
-/* ------------------------footer-contact------------------------- */
 .footer-contacts{
   padding-bottom: 30px;
-   /* margin:30px; */
-   /* display: flex; */
+  
 }
 .footer-contacts h2{
   padding: 8px;
@@ -993,18 +991,17 @@ width: 100%;
   
 }
 
-/* ---------------------------------footer-times----------------------------------- */
 .footer-times h2{
   padding: 8px;
-  /* margin-right: 50px; */
+
 }
 .footer-time{
   margin-top: 4px;
 }
-/* ----------------------------------footer action---------------------------- */
+
 .footer-action h2{
   padding: 10px;
-  /* margin: px; */
+  
 }
 .footer-btn{
   background-color: #12b997;
@@ -1012,7 +1009,7 @@ width: 100%;
   width: 300px;
   border-radius: 5px;
   border: none;
-  /* margin-left:50px ; */
+  
   
   box-shadow: 8px 8px 20px rgba(182, 180, 180, 0.25);
 }
@@ -1024,7 +1021,7 @@ width: 100%;
   width: 100%;
   
 }
-/* --------------------------------footer bottom------------------------------- */
+
 
  .footer-bottom{
   display: flex;
@@ -1036,7 +1033,7 @@ width: 100%;
   height: 200px;
 }
 
-/* LEFT LINKS */
+
 .footer-links{
   display: flex;
   flex-wrap: wrap;
@@ -1050,29 +1047,29 @@ width: 100%;
   font-size: 15px;
 }
 
-/* Pipe separator */
+
 .footer-links a:not(:last-child)::after{
   content: "|";
   margin-left: 20px;
   opacity: 0.6;
 }
 
-/* RIGHT COPYRIGHT */
+
 .footer-copy{
   font-size: 15px;
   color: #ffffff;
 } 
 
-
+ */
 
 
 
 
 /* ----------------------------------------------contact page css--------------------------------------------------- */
-.contact-banner {
+/* .contact-banner {
   height: 250px;
   width: 100%;
-  background-color: #010101;   /* Dark background */
+  background-color: #010101;   
 
   display: flex;
   justify-content: center;
@@ -1093,14 +1090,14 @@ width: 100%;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-/* Layout */
+
 .contact-container {
   display: flex;
   justify-content: space-between;
   gap: 60px;
 }
 
-/* LEFT SIDE */
+
 .contact-left {
   width: 45%;
 }
@@ -1111,7 +1108,7 @@ width: 100%;
   margin-bottom: 40px;
 }
 
-/* Cards */
+
 .contact-card {
   background: #ffffff;
   border-radius: 18px;
@@ -1138,24 +1135,24 @@ width: 100%;
   line-height: 1.6;
 }
 
-/* Icon */
+
 .card-icon {
   color: #4FEECE;
   font-size: 28px;
   margin-top: 5px;
 }
 
-/* RIGHT SIDE FORM */
+
 .contact-form {
   width: 45%;
   background: #28deB6;
   padding: 50px;
   border-radius: 25px;
   box-shadow: #000000;
-  /* color: #333333; */
+ 
 }
 
-/* Form Inputs */
+
 .contact-form input,
 .contact-form textarea {
   width: 100%;
@@ -1181,9 +1178,10 @@ width: 100%;
   height: 120px;
   resize: none;
   background-color: #ffffff;
+  color: #000000;
 }
 
-/* Button */
+
 .submit-btn {
   padding: 12px 20px;
   background: #333;
@@ -1196,7 +1194,7 @@ width: 100%;
 .submit-btn:hover {
   background: white;
   color: black;
-}
+} */
 
 
 /* -------------------------------About  us nav link ------------------------------- */
@@ -1395,7 +1393,7 @@ width: 100%;
 .maldives-banner {
   height: 250px;
   width: 100%;
-  background-color: #1c1c1c;   /* Dark background */
+  background-color: #010101;   /* Dark background */
 
   display: flex;
   justify-content: center;
@@ -1421,7 +1419,7 @@ width: 100%;
   padding: 80px 70px;
   padding-left: 30px;
   color: white;
-  height: 900px;
+  height: 940px;
 }
 
 .maldives-container{
@@ -1503,13 +1501,13 @@ width: 100%;
   border-radius: 6px;
   border: none;
   background-color: #ffffff;
-  color: white;
+  color: #000000;
   border: 1px solid white;
 }
 
 .maldives-form textarea{
-  height: 70px;
-  resize: none;
+  height: 50px;
+  
 }
 
 /* BUTTON */
@@ -1575,7 +1573,7 @@ background-color: #12B99721;
 } 
 
 .service-card {
-  background: #111;
+  background: #fff;
   width: 380px;
   min-height: 260px;
   padding: 20px;
@@ -1605,6 +1603,7 @@ background-color: #12B99721;
   font-size: 16px;
   line-height: 1.6;
   list-style: none;
+  padding-left: 20px;
 }
 
 .service-card ul li i {
@@ -1618,10 +1617,10 @@ background-color: #12B99721;
 
 
 
-/* ------------------------------------------why Maldives section------------------------------------------- */
+/* ------------------------------------------why Maldives page section------------------------------------------- */
 /* SECTION BG */
 .why-section {
-  background-color: black;   /* screenshot approx */
+  background-color: #fff;   /* screenshot approx */
   padding: 80px 0;
   display: flex;
   justify-content: center;
@@ -1690,17 +1689,17 @@ background-color: #12B99721;
 }
 
 
-/* ---------------------maldives supervisors--------------------------------------------------- */
+/* ---------------------maldives page supervisors--------------------------------------------------- */
 /* SECTION BG */
 .supervisors-section {
-  background-color: #08352D;  
+  background-color: #F1FdFa;  
   padding: 80px 0;
 }
 
 /* TOP HEADING */
 .supervisors-title {
   text-align: center;
-  color: white;
+  color: #000000;
   font-size: 34px;
   margin-bottom: 30px;
 }
@@ -1725,20 +1724,22 @@ background-color: #12B99721;
 
 /* RIGHT CONTENT */
 .supervisors-content {
-  color: white;
+  color: #000000;
   width: 55%;
 }
 
 /* RIGHT HEADING */
 .supervisors-content h3 {
-  font-size: 28px;
+  font-size: 29px;
   margin-bottom: 10px;
+  /* color: #000000; */
 }
 
 /* SMALL SUB TEXT */
 .supervisors-content .sub-text {
-  color: #cce7df;
+  color: #000000;
   margin-bottom: 10px;
+  font-size: 16px;
 }
 
 /* PARAGRAPHS */
@@ -1748,14 +1749,14 @@ background-color: #12B99721;
   font-size: 16px;
 }
 
-/* -------------------------maldives page -therapy-------------------------------------- */
+/* -------------------------maldives page - online therapy-------------------------------------- */
 /* SECTION BACKGROUND */
 .therapy-section {
-  background-color: #181A1B;
+  background-color: #ffffff;
   padding: 50px 0;
   display: flex;
   justify-content: center;
-  height: 400px;
+  height: 200px;
 }
 
 /* CONTAINER */
@@ -1765,19 +1766,20 @@ background-color: #12B99721;
 
 /* CARD */
 .therapy-card {
-  background-color: #111111;
+  background-color: #ffffff;
   border-radius: 20px;
   padding: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 60px;
+  box-shadow: #000;
 }
 
 /* LEFT CONTENT */
 .therapy-content {
   width: 55%;
-  color: white;
+  color: #000000;
 }
 
 /* MAIN HEADING */
@@ -1789,7 +1791,7 @@ background-color: #12B99721;
 
 /* PARAGRAPH */
 .therapy-para {
-  color: #cfcfcf;
+  
   margin-bottom: 25px;
   line-height: 1.6;
 }
@@ -1835,7 +1837,7 @@ background-color: #12B99721;
 /* ------------------------maldives coming soon---------------------------------------------------- */
 /* SECTION BG */
 .clinic-section {
-  background-color: #0b4f45;
+  background-color: #F1FdFa;
   padding: 80px 0;
   height: 450px;
 }
@@ -1861,7 +1863,7 @@ background-color: #12B99721;
 /* RIGHT CONTENT */
 .clinic-content {
   width: 55%;
-  color: white;
+  color: #000000;
   margin-bottom: 10px;
   margin-left: 0px;
 }
@@ -1874,7 +1876,7 @@ background-color: #12B99721;
 
 /* PARAGRAPH */
 .clinic-content p {
-  color: #cfd8d5;
+ 
   line-height: 1.6;
   margin-bottom: 20px;
 }
@@ -1914,6 +1916,7 @@ background-color: #12B99721;
 
 .faq-section {
   padding: 80px 20px;
+  background-color: #fff;
 }
 
 .faq-section h2 {
@@ -1969,7 +1972,7 @@ background-color: #12B99721;
 
 /* ------------------------------------------------------------maldives cta--------------------------------------------------- */
 .cta-section {
-  background-color: #12302E; /* dark green bg */
+  background-color: #EDF8F7; /* dark green bg */
   padding: 80px 20px;
   height: 450px;
 }
@@ -1977,7 +1980,7 @@ background-color: #12B99721;
 .cta-wrapper {
   max-width: 900px;
   margin: auto;
-  background: #121212;
+  background: #fff;
   border-radius: 20px;
   padding: 50px;
   display: flex;
@@ -1992,14 +1995,14 @@ background-color: #12B99721;
 }
 
 .cta-left h2 {
-  color: #4FEECE;
+  color: #12B997;
   font-size: 36px;
   line-height: 1.2;
   margin-bottom: 20px;
 }
 
 .cta-left p {
-  color: #e0e0e0;
+  color: #000000;
   font-size: 16px;
   max-width: 400px;
 }
@@ -2007,7 +2010,7 @@ background-color: #12B99721;
 /* RIGHT CARD */
 .cta-card {
   flex: 1;
-  background: #119383;
+  background: #15b8A4;
   padding: 30px;
  
   border-radius: 16px;
@@ -2049,15 +2052,16 @@ background-color: #12B99721;
 .Clinic-banner {
   height: 200px;
   width: 100%;
-  background-color: #1c1c1c;   /* Dark background */
+  background-color: #010101;  
 
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #fff;
 }
 
 .Clinic-banner h2 {
-  color: white;
+  
   font-size: 40px;
   font-weight: 600;
 }
@@ -2066,18 +2070,18 @@ background-color: #12B99721;
 
 
 .offer-section {
-  background: #123a3a;
+  background: #EDF8F7;
   padding: 50px 20px;
   text-align: center;
 }
 
 .offer-section h2 {
-  color: #6fffe9;
+  color: #12B997;
   font-size: 46px;
   margin-bottom: 50px;
 }
 
-/* Cards Grid */
+
 .offer-cards {
   max-width: 1200px;
   margin: auto;
@@ -2086,13 +2090,13 @@ background-color: #12B99721;
   gap: 30px;
 }
 
-/* Card */
+
 .offer-card {
-  background: #151a1a;
+  background: #ffffff;
   padding: 35px 25px;
   border-radius: 18px;
   text-align: left;
-  color: #fff;
+  color: #000000;
 }
 .card-header {
   display: flex;
@@ -2103,7 +2107,7 @@ background-color: #12B99721;
 
 
 
-/* Icon */
+
 .icon-box {
   width: 60px;
   height: 60px;
@@ -2113,7 +2117,7 @@ background-color: #12B99721;
   align-items: center;
   justify-content: center;
   font-size: 26px;
-  margin-bottom: 0; /* remove */
+  margin-bottom: 0; 
   flex-shrink: 0;
 }
 
@@ -2126,11 +2130,11 @@ background-color: #12B99721;
 .offer-card p {
   font-size: 16px;
   line-height: 1.6;
-  color: #cfdada;
+  color: #000000;
   margin-bottom: 25px;
 }
 
-/* Button */
+
 .offer-card button {
   background: #0f9d85;
   color: #fff;
@@ -2144,13 +2148,13 @@ background-color: #12B99721;
   font-size: 16px;
 }
 
-/* Last row center */
+
 .offer-card:nth-child(4),
 .offer-card:nth-child(5) {
   grid-column: span 1;
 }
 
-/* Responsive */
+
 @media (max-width: 992px) {
   .offer-cards {
     grid-template-columns: repeat(2, 1fr);
@@ -2170,7 +2174,7 @@ background-color: #12B99721;
 .phychological-banner {
   height: 200px;
   width: 100%;
-  background-color: #1c1c1c;   /* Dark background */
+  background-color: #010101;   /* Dark background */
 
   display: flex;
   justify-content: center;
@@ -2185,7 +2189,7 @@ background-color: #12B99721;
 /* ------------------------------------------------phychological section 2------------------------------------------ */
 
 .assessment-section {
-  background: #0e1a1a;
+  background: #ffffff;
   padding: 80px 0;
   color: #ffffff;
 }
@@ -2217,6 +2221,7 @@ background-color: #12B99721;
 .main-heading {
   font-size: 32px;
   margin-bottom: 5px;
+  color: #000000;
 }
 
 .main-heading span {
@@ -2227,13 +2232,14 @@ background-color: #12B99721;
 .description {
   font-size: 16px;
   line-height: 1.7;
-  color: #cfd8dc;
+  color: #000000;
   margin-bottom: 30px;
 }
 
 .sub-heading {
   font-size: 26px;
   margin-bottom: 15px;
+  color: #000000;
 }
 
 .custom-list {
@@ -2243,7 +2249,7 @@ background-color: #12B99721;
 
 .custom-list li {
   margin-bottom: 12px;
-  color: #cfd8dc;
+  color: #000000;
 }
 
 /* RIGHT SIDE */
@@ -2252,7 +2258,7 @@ background-color: #12B99721;
 }
 
 .form-box {
-  background: #123232;
+  background: #f0f8f0;
   padding: 40px 35px;
   border-radius: 20px;
 }
@@ -2272,6 +2278,7 @@ form {
 label {
   margin-top: 15px;
   margin-bottom: 6px;
+  
 }
 
 input,
@@ -2329,7 +2336,7 @@ button:hover {
 /* ------------------------------indivisual therapy-------------------------------------------- */
 /* SECTION BACKGROUND */
 .assess-section-two {
-  background: linear-gradient(90deg, #0e1a1a, #123232);
+  background-color: #EDF8F7;
   padding: 80px 0;
   color: #fff;
 }
@@ -2359,6 +2366,7 @@ button:hover {
 /* RIGHT CONTENT */
 .assess-right {
   width: 50%;
+  color: #000000;
 }
 
 /* HEADING */
@@ -2369,7 +2377,7 @@ button:hover {
 
 /* PARAGRAPH */
 .assess-para {
-  color: #cfd8dc;
+  color: #000000;
   margin-bottom: 20px;
   font-size: 16px;
 }
@@ -2384,7 +2392,7 @@ button:hover {
   position: relative;
   padding-left: 30px;
   margin-bottom: 14px;
-  color: #d7e0e0;
+  color: #000000;
   font-size: 16px;
 }
 
@@ -2406,16 +2414,16 @@ button:hover {
 }
 
 /* --------------------------------------------benefits of phychological therapy-------------------------------------- */
-.benefit-section {
-  background-color: #0c0f0f; /* almost black */
+.benefit-section2 {
+  background-color: #ffffff; /* almost black */
   padding: 90px 0;
 }
 
 /* INNER CARD */
-.benefit-card {
+.benefit-card2 {
   max-width: 1200px;
   margin: auto;
-  background-color: #151b1b;
+  background-color: #EDF8F7;
   border-radius: 18px;
   padding: 50px 60px;
   display: flex;
@@ -2424,12 +2432,12 @@ button:hover {
 }
 
 /* LEFT CONTENT */
-.benefit-content {
+.benefit-content2 {
   flex: 1;
-  color: #ffffff;
+  color: #000000;
 }
 
-.benefit-content h2 {
+.benefit-content2 h2 {
   font-size: 32px;
   font-weight: 600;
   margin-bottom: 22px;
@@ -2476,7 +2484,7 @@ button:hover {
 .indivisual-banner {
   height: 200px;
   width: 100%;
-  background-color: #1c1c1c;   /* Dark background */
+  background-color: #010101;   /* Dark background */
 
   display: flex;
   justify-content: center;
@@ -2490,9 +2498,9 @@ button:hover {
 }
 /* SECTION BACKGROUND */
 .therapy-section {
-  background-color: #33333333;
+  background-color: #ffffff;
   padding: 80px 0;
-  height: 800px;
+  height: 900px;
 }
 
 /* CONTAINER */
@@ -2508,7 +2516,7 @@ button:hover {
 /* LEFT SIDE */
 .therapy-left {
   flex: 1;
-  color: #ffffff;
+  color: #000000;
 }
 
 .therapy-img {
@@ -2532,7 +2540,7 @@ button:hover {
 .therapy-left p {
   font-size: 16px;
   line-height: 1.7;
-  color: #d1d5d5;
+  
   margin-bottom: 15px;
 }
 
@@ -2581,7 +2589,7 @@ button:hover {
 }
 
 .therapy-form textarea {
-  height: 20px;
+  height: 10px;
   
 }
 
@@ -2601,13 +2609,13 @@ button:hover {
 
 /* -----------------------------------------------indivisual page  ka therapy section---------------------------------------- */
 
-.therapy-session {
+.therapy-session3 {
   background-color: #0E947921;
   padding: 90px 0;
 }
 
 /* CONTAINER */
-.therapy-session-container {
+.therapy-session-container3 {
   max-width: 1200px;
   margin: auto;
   display: flex;
@@ -2617,7 +2625,7 @@ button:hover {
 
 
   padding: 0 20px;
-  height: 300px;
+  height: 400px;
 }
 
 /* LEFT IMAGE */
@@ -2629,60 +2637,135 @@ button:hover {
 }
 
 /* RIGHT CONTENT */
-.therapy-session-content {
+.therapy-session-content3 {
   flex: 1;
-  color: #e6eded;
+  color: #000000;
 }
 
 /* HEADING */
-.therapy-session-content h2 {
+.therapy-session-content3 h2 {
   font-size: 29px;
   font-weight: 600;
-  color: #ffffff;
+ 
   margin-bottom: 18px;
 }
 
 /* PARAGRAPH */
-.therapy-session-content p {
+.therapy-session-content3 p {
   font-size: 16px;
   line-height: 1.7;
-  color: #d1dddd;
+  
   margin-bottom: 28px;
   max-width: 700px;
 }
 
 /* LIST */
-.therapy-list {
+.therapy-list3 {
   list-style: none;
   padding: 0;
   margin: 0;
+  color: #000000;
 }
 
-.therapy-list li {
+.therapy-list3 li {
   position: relative;
   padding-left: 34px;
   margin-bottom: 16px;
   font-size: 15.5px;
   line-height: 1.6;
-  color: #e8f2f2;
+  
 }
 
 /* CUSTOM ICON (GREEN CIRCLE + CHECK) */
-.therapy-list li::before {
-  content: "✔";
+.therapy-list3 li::before {
+  /* content: "✔"; */
   position: absolute;
   left: 0;
   top: 2px;
   width: 22px;
   height: 22px;
-  background-color: #3fe0b3;
-  color: #083c36;
+  
+  color: #000000;
   font-size: 13px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+/* ---------------------------------------------goal of indivisual therapy page------------------------------------------- */
+/* SECTION BACKGROUND */
+.therapy-section2 {
+  background-color: #eef4f3;   /* light greenish background like SS */
+  padding: 80px 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* CARD CONTAINER */
+.therapy-card2 {
+  width: 1200px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 60px;
+  gap: 40px;
+}
+
+/* LEFT CONTENT */
+.therapy-content2 {
+  flex: 1;
+}
+
+.therapy-content2 h2 {
+  font-size: 32px;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+.therapy-list2 {
+  list-style: none;
+  padding: 0;
+}
+
+.therapy-list2 li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.check-icon {
+  color: #16a085;   /* green color */
+  font-size: 18px;
+  margin-top: 4px;
+}
+
+.check-icon {
+  color: #16a085;   /* green color */
+  font-size: 18px;
+  margin-top: 4px;
+}
+
+
+/* RIGHT IMAGE */
+.therapy-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.therapy-image img {
+  width: 100%;
+  max-width: 520px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
 
 
 
@@ -2690,7 +2773,7 @@ button:hover {
 /* -------------------------------------Approach sesction0------------------------------------------------------ */
 /* SECTION BG */
 .approach-section {
-  background-color: #0b3a33; /* dark green */
+  background-color: #ffffff; /* dark green */
   padding: 50px 0;
   
 }
@@ -2719,18 +2802,19 @@ button:hover {
 .approach-content {
   flex: 1;
   padding-top: 2px; /* thoda upar shift */
+  color: #000000;
 }
 
 /* HEADING */
 .approach-content h2 {
-  color: #ffffff;
+  
   font-size: 36px;
   margin-bottom: 10px;
 }
 
 /* TOP PARA */
 .approach-intro {
-  color: #e0f2ef;
+
   font-size: 16px;
   margin-bottom: 15px;
   line-height: 1.6;
@@ -2762,7 +2846,7 @@ button:hover {
 
 /* BOTTOM PARA */
 .approach-footer {
-  color: #d9f3ee;
+  /* color: #d9f3ee; */
   font-size: 15px;
   line-height: 1.6;
   margin-top: 10px;
@@ -2772,7 +2856,7 @@ button:hover {
 .parental-banner {
   height: 200px;
   width: 100%;
-  background-color: #1c1c1c;   /* Dark background */
+  background-color: #010101;   /* Dark background */
 
   display: flex;
   justify-content: center;
@@ -2788,7 +2872,7 @@ button:hover {
 
 
 .parental-section {
-  background: #0f1f1c;
+  background: #ffffff;
   padding: 60px 20px;
   
 }
@@ -2804,7 +2888,7 @@ button:hover {
 /* LEFT SIDE */
 .left-content {
   flex: 1.2;
-  color: #ffffff;
+  color: #000000;
 }
 
 .image-wrapper img {
@@ -2824,7 +2908,7 @@ button:hover {
 }
 
 .left-content p {
-  color: #cfcfcf;
+  
   line-height: 1.7;
   margin-bottom: 25px;
 }
@@ -2837,6 +2921,7 @@ button:hover {
   margin-bottom: 12px;
   padding-left: 25px;
   position: relative;
+  color: #000000;
 }
 
 .approach-list li::before {
@@ -2911,7 +2996,7 @@ button:hover {
 
 /* -----------------------------learn section---------------------------------------- */
 .learn-section {
-  background-color: #18302c; /* same dark green */
+  background-color: #EDF8F7; /* same dark green */
   padding: 70px 20px;
 }
 
@@ -2937,7 +3022,7 @@ button:hover {
 /* CONTENT */
 .learn-content {
   flex: 1.2;
-  color: #ffffff;
+  color: #000000;
 }
 
 .learn-content h2 {
@@ -2961,7 +3046,7 @@ button:hover {
   gap: 12px;
   margin-bottom: 14px;
   line-height: 1.6;
-  color: #e6e6e6;
+  
   font-size: 16px;
 }
 
@@ -2989,7 +3074,7 @@ button:hover {
 
 /* ----------------------------benefits section----------------------------------------------- */
 .benefit-section {
-  background-color: #141717; /* dark bg like SS */
+  background-color: #ffffff; /* dark bg like SS */
   padding: 80px 20px;
 }
 
@@ -3004,7 +3089,7 @@ button:hover {
 /* LEFT */
 .benefit-content {
   flex: 1;
-  color: #ffffff;
+  color: #000000;
 }
 
 .benefit-content h2 {
@@ -3027,7 +3112,7 @@ button:hover {
   align-items: flex-start;
   gap: 12px;
   margin-bottom: 4px;
-  color: #dcdcdc;
+  
   line-height: 1.6;
   font-size: 16px;
 }
@@ -3076,7 +3161,7 @@ button:hover {
 .Family-banner {
   height: 200px;
   width: 100%;
-  background-color: #1c1c1c;   /* Dark background */
+  background-color: #010101;   /* Dark background */
 
   display: flex;
   justify-content: center;
@@ -3094,13 +3179,14 @@ button:hover {
   display: flex;
   gap: 40px;
   padding: 60px 80px;
-  background-color: #0f0f0f;
+  background-color: #ffffff;
   color: white;
 }
 
 /* LEFT SIDE */
 .family-left {
   flex: 1;
+  color: #000000;
 }
 
 .family-image {
@@ -3122,7 +3208,7 @@ button:hover {
 }
 
 .family-left p {
-  color: #cfcfcf;
+  
   line-height: 1.7;
   margin-bottom: 30px;
 }
@@ -3140,7 +3226,7 @@ button:hover {
 .family-list {
   list-style-type: disc;
   padding-left: 20px;
-  color: #cfcfcf;
+
 }
 
 .family-list li {
@@ -3149,7 +3235,7 @@ button:hover {
 
 /* RIGHT SIDE */
 .family-right {
-  flex: 1;
+  flex: .5;
   background: linear-gradient(180deg, #0f3f3b, #0a2c29);
   padding: 40px;
   border-radius: 20px;
@@ -3171,6 +3257,7 @@ button:hover {
 .family-right label {
   margin-bottom: 5px;
   font-size: 14px;
+  color: #fff;
 }
 
 .family-right input,
@@ -3179,7 +3266,7 @@ button:hover {
   padding: 12px;
   border-radius: 6px;
   border: 1px solid #555;
-  background-color: #1a1a1a;
+  background-color: #555;
   color: white;
 
 }
@@ -3209,10 +3296,10 @@ button:hover {
 
 
 
- /* -------------------------------------------------Family therapy----------------------------------------------------- */
+ /* -------------------------------------------------Family therapy page section 2----------------------------------------------------- */
 
 .family-therapy {
-  background: linear-gradient(135deg, #0f2e2a, #0d3b35);
+  background-color: #EDF8F7;
   padding: 80px 0;
   min-height: 600px;
   display: flex;
@@ -3280,10 +3367,10 @@ button:hover {
 }
 
 
-/* ---------------------------Group page therapy---------------------------------------- */
+/* ---------------------------Group page ka first section therapy---------------------------------------- */
 /* SECTION BACKGROUND */
 .group-section {
-  background: linear-gradient(135deg, #0b1f1d, #0e2c28);
+  background:#ffffff;
   padding: 90px 0;
 }
 
@@ -3298,7 +3385,7 @@ button:hover {
 /* LEFT SIDE */
 .group-left {
   flex: 1.35;   /* left side slightly wider */
-  color: #ffffff;
+  color: #000000;
 }
 
 .group-image {
@@ -3333,7 +3420,7 @@ button:hover {
 
 /* PARAGRAPH */
 .text {
-  color: #c7d4d2;
+ 
   line-height: 1.7;
   margin-bottom: 20px;
   font-size: 16px;
@@ -3350,7 +3437,7 @@ button:hover {
   position: relative;
   padding-left: 35px;
   margin-bottom: 14px;
-  color: #e5f6f3;
+  
 }
 
 .styled-list li::before {
@@ -3365,10 +3452,10 @@ button:hover {
 }
 
 .styled-list li::after {
-  content: "›";
+  content: "✔";
   position: absolute;
-  left: 6px;
-  top: 1px;
+  left: 4px;
+  top: 4px;
   color: #ffffff;
   font-size: 14px;
 }
@@ -3382,11 +3469,12 @@ button:hover {
 
 /* FORM CARD */
 .form-card {
-  background: linear-gradient(135deg, #0f3a35, #0b2a26);
+  background: #EDF8F7;
   padding: 45px;
   border-radius: 20px;
   width: 100%;
-  max-width: 430px;   /* slightly smaller than left */
+  max-width: 430px; 
+  box-shadow: 10px ;  /* slightly smaller than left */
 }
 
 /* FORM HEADING */
@@ -3427,8 +3515,8 @@ textarea:focus {
 
 /* BUTTON */
 button {
-  margin-top: 10px;
-  padding: 14px;
+  /* margin-top: 10px; */
+  /* padding: 10px; */
   border-radius: 8px;
   border: none;
   background-color: #1dbf9f;
@@ -3436,6 +3524,8 @@ button {
   font-weight: 600;
   cursor: pointer;
   transition: 0.3s ease;
+  min-width: 150px;
+  height: 60px;
 }
 
 button:hover {
@@ -3446,7 +3536,7 @@ button:hover {
 
 /* ----------------------------------------------group section 2------------------------------------- */
 .group-therapy-section {
-  background: linear-gradient(135deg, #0f2f2f, #123c3c);
+  background: #EDF8F7;
   padding: 80px 0;
 }
 
@@ -3470,11 +3560,12 @@ button:hover {
 /* Right Side */
 .right {
   max-width: 550px;
+  color: #000000;
 }
 
 .right h2 {
   font-size: 36px;
-  color: #ffffff;
+
   margin-bottom: 30px;
   font-weight: 600;
 }
@@ -3487,7 +3578,7 @@ button:hover {
 }
 
 .therapy-list li {
-  color: #e0f7f7;
+ 
   font-size: 18px;
   margin-bottom: 18px;
   display: flex;
@@ -3704,12 +3795,12 @@ button:hover {
 
 /* ------------------------------------school section 3-------------------------------------------------------- */
 
- .pillar-section {
-  background-color: #ffffff;
+ .pillar-section1 {
+  background-color: #EDF8F7;
   padding: 80px 20px;
 } 
 
-.pillar-container {
+.pillar-container1 {
   max-width: 1200px;
   margin: 0 auto;
   background: #ffffff;
@@ -3729,35 +3820,36 @@ button:hover {
 }
 
 /* Right Content */
-.pillar-content {
+.pillar-content1 {
+  /* color: #000000; */
   flex: 1;
 }
 
-.pillar-content h2 {
-  color: #ffffff;
+.pillar-content1 h2 {
+  color: #000000;
   font-size: 26px;
   margin-bottom: 15px;
 }
 
-.pillar-content p {
-  color: #cccccc;
+.pillar-content1 p {
+  color: #000000;
   margin-bottom: 25px;
   font-size: 16px;
   line-height: 1.6;
 }
 
 /* List */
-.pillar-content ul {
+.pillar-content1 ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.pillar-content li {
+.pillar-content1 li {
   display: flex;
   align-items: flex-start;
   margin-bottom: 18px;
-  color: #e6e6e6;
+  color: #000000;
   font-size: 15px;
   line-height: 1.6;
 }
@@ -3842,7 +3934,7 @@ button:hover {
 
 /* ----------------------------------------school section 5----------------------------------------------------------- */
 .issues-section {
-  background-color: #ffffff;
+  background-color: #EDF8F7;
   padding: 90px 20px;
 }
 
@@ -3908,12 +4000,12 @@ button:hover {
   font-size: 16px;
 }
 /* --------------------------------------school section 6----------------------------------------------------------- */
-.process-section {
-  background: linear-gradient(to right, #0f2e2a, #0c1f1c);
+.process-section1 {
+  background-color: #ffffff;
   padding: 80px 0;
 }
 
-.process-container {
+.process-container1 {
   width: 1200px;
   margin: 0 auto;
   display: flex;
@@ -3925,7 +4017,7 @@ button:hover {
 /* Left Side */
 .process-content {
   flex: 1;
-  color: #ffffff;
+  color: #000000;
 }
 
 .process-heading {
@@ -3975,7 +4067,7 @@ button:hover {
 
 /* ----------------------------------------school 7-------------------------------------------------------- */
 .work-section {
-  background: #0f1f1d;
+  background-color: #EDF8F7;
   padding: 100px 0;
 }
 
@@ -4250,7 +4342,7 @@ button:hover {
 .Corporate-banner {
   height: 200px;
   width: 100%;
-  background-color: #1c1c1c; 
+  background-color: #010101; 
 
   display: flex;
   justify-content: center;
@@ -4266,7 +4358,7 @@ button:hover {
 
 
 /* -----------------------------------------------corporate first section------------------------------------------------------ */
-.corporate-section {
+.corporate-section2 {
   display: flex;
   gap: 40px;
   padding: 60px 80px;
@@ -4283,31 +4375,31 @@ button:hover {
   object-fit: cover;
 }
 
-.content {
+.content2 {
   margin-top: 30px;
 }
 
-.content h2 {
+.content2 h2 {
   font-size: 40px;
   font-weight: 700;
 }
 
-.content h2 span {
+.content2 h2 span {
   color: #1ba784;   /* green like screenshot */
 }
 
-.content p {
+.content2 p {
   margin: 20px 0;
   font-size: 18px;
   color: #000000;
 }
 
-.content ul {
+.content2 ul {
   list-style: none;
   padding: 0;
 }
 
-.content ul li {
+.content2 ul li {
   margin-bottom: 15px;
   color: #000000;
   font-size: 16px;
@@ -4317,14 +4409,14 @@ button:hover {
 }
 
 .icon {
-  color: #1ba784;
+  color: white;
   margin-right: 10px;
 }
 
 /* RIGHT SIDE */
 .right-side {
-  flex: 1;
-  background-color: #d9e4e3;   /* light green bg */
+  flex: .9;
+  background-color: #083c36;   /* light green bg */
   padding: 40px;
   display: flex;
   justify-content: center;
@@ -4473,7 +4565,7 @@ form button:hover {
 
 /* ------------------------------------------------corporate 3---------------------------------------------- */
 .pillar-section {
-  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  background-color: #EDF8F7;
   padding: 80px 0;
 }
 
@@ -4521,7 +4613,7 @@ form button:hover {
   display: flex;
   align-items: center;
   gap: 12px;
-  color: #ffffff;
+  color: #000000;
   margin-bottom: 15px;
   font-size: 15px;
 }
@@ -4548,7 +4640,7 @@ form button:hover {
 }
 /* --------------------------------------corporate 4 --------------------------------------------------- */
 .organization-section {
-  background: linear-gradient(to right, #0f2027, #134e4a);
+  background-color: #ffffff;
   padding: 100px 0;
 }
 
@@ -4565,21 +4657,22 @@ form button:hover {
 /* LEFT SIDE */
 .organization-left {
   flex: 1;
+  color: #000000;
 }
 
 .organization-left h2 {
   font-size: 22px;
-  color: #ffffff;
+  
   margin-bottom: 20px;
   line-height: 1.4;
 }
 
 .organization-left span {
-  color: #ffffff;
+  color: #000000;
 }
 
 .organization-left p {
-  color: #d1d5db;
+  
   font-size: 17px;
   margin-bottom: 30px;
   line-height: 1.7;
@@ -4588,6 +4681,7 @@ form button:hover {
 .organization-left ul {
   list-style: none;
   padding: 0;
+  
 }
 
 .organization-left ul li {
@@ -4595,7 +4689,7 @@ form button:hover {
   align-items: flex-start;
   gap: 15px;
   margin-bottom: 20px;
-  color: #ffffff;
+  color: #000;
   font-size: 16px;
   line-height: 1.6;
 }
@@ -4625,7 +4719,7 @@ form button:hover {
 
 /* ----------------------------------corporate section 5------------------------------------------------------------------ */
 .challenges-section {
-  background: linear-gradient(to right, #0f2027, #111827);
+  background-color: #EDF8F7;
   padding: 100px 0;
 }
 
@@ -4697,12 +4791,12 @@ form button:hover {
 
 
 /* ------------------------------------corporate section 6----------------------------------------------------------- */
-.process-section {
-  background-color: #12B997;
+.process-section3 {
+  background-color: #ffffff;
   padding: 100px 0;
 }
 
-.process-container {
+.process-container3 {
   max-width: 1200px;
   margin: auto;
   display: flex;
@@ -4715,11 +4809,12 @@ form button:hover {
 /* LEFT SIDE */
 .process-left {
   flex: 1;
+  color: #000000;
 }
 
 .process-left h2 {
   font-size: 25px;
-  color: #ffffff;
+ 
   margin-bottom: 10px;
 }
 .process-left p{
@@ -4736,14 +4831,14 @@ form button:hover {
   align-items: flex-start;
   gap: 5px;
   margin-bottom: 15px;
-  color: #ffffff;
+  color: #000000;
   font-size: 16px;
   line-height: 1.6;
 }
 
 /* CHECK ICON */
 .icon {
-  color: #22d3ee;
+  color: #12B997;
   font-size: 18px;
   margin-top: 5px;
 }
@@ -4842,8 +4937,112 @@ form button:hover {
 
 /* ---------------------------------------booking form------------------------------------------------------------------- */
 
+/* 
 
 
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.modal-wrapper {
+  background: linear-gradient(135deg, #6dd5c4, #12b997);
+  padding: 20px;
+  border-radius: 18px;
+}
+
+
+.modal-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 14px;
+  width: 650px;
+  position: relative;
+}
+
+
+.close-btn {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 22px;
+  cursor: pointer;
+  color: #6c63ff;
+}
+
+
+.modal-card h2 {
+  margin-bottom: 25px;
+  font-size: 26px;
+}
+
+
+.row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+input, select {
+  height: 45px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #000;
+  font-size: 14px;
+  width: 100%;
+  color: #000;
+  background-color: #fff;
+}
+
+
+.confirm-btn {
+  width: 100%;
+  height: 50px;
+  background: #177e68;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.confirm-btn:hover {
+  background: #136a57;
+}
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #333;
+  transition: 0.3s;
+}
+
+.close-btn:hover {
+  color: red;
+}
+ */
 
 
 

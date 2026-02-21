@@ -1,9 +1,11 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 import { FaArrowRight, FaCheckCircle } from "react-icons/fa";
 import { FaEnvelope, FaWhatsapp } from "react-icons/fa";
 
 const Maldives = () => {
+  const navigate = useNavigate();
   return (
     <>
       <section className="maldives-banner">
@@ -380,7 +382,9 @@ const Maldives = () => {
               Coming Soon: Physical clinic in Malé
             </p>
 
-            <button>Book a Consultation</button>
+            <button onClick={() => navigate("/contact")}>
+              Book a Consultation
+            </button>
           </div>
         </div>
       </section>

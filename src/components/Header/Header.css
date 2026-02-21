@@ -1,0 +1,130 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.Home-wrapper{
+  background-color: #eef7f6;
+}
+
+
+/* Header */
+.navbar {
+height: 200px;
+width: 100%;
+ display: flex;
+  border: 2px solid #3333;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 15px 40px;
+}
+.nav a {
+  color: black;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.nav-btn button{
+    background-color: #0b7f6a;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 12px 22px;
+    border: none;
+    
+    
+   
+}
+.nav a:hover{
+  color: #096655;
+}
+.logo {
+  height: 170px;
+  width: 170px;
+}
+/*----------------------------------dropdown lists-------------------------------------*/
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+/* DROPDOWN */
+.dropdown {
+  position: relative;
+  margin-left: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.drop-link {
+  color: black;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* FIRST DROPDOWN */
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #1b1b1b;
+  min-width: 280px;
+  display: none;
+  z-index: 1000;
+}
+
+.dropdown-menu a,
+.dropdown-sub span {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 18px;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid #333;
+  font-size: 14px;
+}
+
+.dropdown-menu a:hover,
+.dropdown-sub span:hover {
+  background: #111;
+  color: #2de1c2;
+}
+
+/* SUB DROPDOWN */
+.dropdown-sub {
+  position: relative;
+}
+
+.dropdown-submenu {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background: #1b1b1b;
+  min-width: 300px;
+  display: none;
+}
+
+.dropdown-sub:hover .dropdown-submenu {
+  display: block;
+}
+
+.dropdown-submenu a {
+  padding: 14px 18px;
+  color: #fff;
+}
+
+.dropdown-submenu a:hover {
+  background: #111;
+  color: #2de1c2;
+}
+
+.arrow {
+  color: #2de1c2;
+}

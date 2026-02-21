@@ -1,4 +1,5 @@
 import React from "react";
+import { FaCheckCircle } from "react-icons/fa";
 
 const Indivisual_therapy = () => {
   return (
@@ -62,13 +63,13 @@ const Indivisual_therapy = () => {
       </section>
 
       {/* ------------------------------------------------therapy session-------------------------------------------------------------- */}
-      {/* <section class="therapy-session">
-        <div class="therapy-session-container">
+      <section class="therapy-session3">
+        <div class="therapy-session-container3">
           <div class="therapy-session-img">
             <img src="./therapy-session2.webp" alt="" />
           </div>
 
-          <div class="therapy-session-content">
+          <div class="therapy-session-content3">
             <h2>What Happens in a Therapy Session?</h2>
 
             <p>
@@ -77,7 +78,7 @@ const Indivisual_therapy = () => {
               respect. Here's what to expect:
             </p>
 
-            <ul class="therapy-list">
+            <ul class="therapy-list3">
               <li>
                 You speak with your therapist in a private, supportive setting
                 (in-person or online).
@@ -106,35 +107,45 @@ const Indivisual_therapy = () => {
         </div>
       </section>
 
-      <section class="therapy-section">
-        <div class="therapy-card">
-          <div class="therapy-content">
+      <section class="therapy-section2">
+        <div class="therapy-card2">
+          <div class="therapy-content2">
             <h2>Goals of Individual Therapy</h2>
 
-            <ul class="therapy-list">
+            <ul class="therapy-list2">
               <li>
-                <span>✔</span> Understand and process complex emotions
+                <FaCheckCircle className="check-icon" />
+                Understand and process complex emotions
               </li>
               <li>
-                <span>✔</span> Learn healthier coping skills
+                <FaCheckCircle className="check-icon" />
+                Learn healthier coping skills
               </li>
               <li>
-                <span>✔</span> Improve communication and relationships
+                <FaCheckCircle className="check-icon" />
+                Improve communication and relationships
               </li>
               <li>
-                <span>✔</span> Manage stress, anxiety, depression, and trauma
+                <FaCheckCircle className="check-icon" />
+                Manage stress, anxiety, depression, and trauma
               </li>
               <li>
-                <span>✔</span> Build self-esteem and emotional resilience
+                <FaCheckCircle className="check-icon" />
+                Build self-esteem and emotional resilience
               </li>
               <li>
-                <span>✔</span> Therapy moves at your pace
+                <FaCheckCircle className="check-icon" />
+                Therapy moves at your pace
               </li>
               <li>
-                <span>✔</span> Gain clarity during life transitions
+                <FaCheckCircle className="check-icon" />
+                Gain clarity during life transitions
               </li>
+
               <li>
-                <span>✔</span> Support healing from past experiences
+                {" "}
+                <FaCheckCircle className="check-icon" />
+                Support healing from past experiences
               </li>
             </ul>
           </div>
@@ -160,24 +171,12 @@ const Indivisual_therapy = () => {
             </p>
 
             <ul class="approach-list">
-              <li>
-                <span>✔</span> Cognitive Behavioral Therapy (CBT)
-              </li>
-              <li>
-                <span>✔</span> Psychodynamic Therapy
-              </li>
-              <li>
-                <span>✔</span> Mindfulness-Based Approaches
-              </li>
-              <li>
-                <span>✔</span> Solution-Focused Therapy
-              </li>
-              <li>
-                <span>✔</span> Trauma-Informed Care
-              </li>
-              <li>
-                <span>✔</span> Humanistic and Integrative Methods
-              </li>
+              <li>Cognitive Behavioral Therapy (CBT)</li>
+              <li>Psychodynamic Therapy</li>
+              <li>Mindfulness-Based Approaches</li>
+              <li>Solution-Focused Therapy</li>
+              <li>Trauma-Informed Care</li>
+              <li>Humanistic and Integrative Methods</li>
             </ul>
 
             <p class="approach-footer">
@@ -186,7 +185,7 @@ const Indivisual_therapy = () => {
             </p>
           </div>
         </div>
-      </section> */}
+      </section>
     </>
   );
 };

@@ -1,0 +1,133 @@
+
+/* ----------------------------------------------contact page css--------------------------------------------------- */
+.contact-banner {
+  height: 250px;
+  width: 100%;
+  background-color: #010101;   /* Dark background */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-banner h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+
+.contact-section {
+  background-color: #EDF8F7;
+  padding: 100px 120px;
+  min-height: 100vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Layout */
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+/* LEFT SIDE */
+.contact-left {
+  width: 45%;
+}
+
+.section-heading {
+  color: #12B997;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+/* Cards */
+.contact-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 30px;
+  margin-bottom: 25px;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: #000000;
+  color: #333333;
+}
+
+.contact-card h3 {
+  color: #333333;
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.contact-card p {
+  color: #1f1f1f;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Icon */
+.card-icon {
+  color: #4FEECE;
+  font-size: 28px;
+  margin-top: 5px;
+}
+
+/* RIGHT SIDE FORM */
+.contact-form {
+  width: 45%;
+  background: #28deB6;
+  color: #000000;
+  padding: 50px;
+  border-radius: 25px;
+  box-shadow: #000000;
+  /* color: #333333; */
+}
+
+/* Form Inputs */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 14px;
+  background-color: #ffffff;   /* white background */
+  border: 1px solid #444;
+  border-radius: 6px;
+  color: #000000;              /* black text */
+  margin-bottom: 30px;
+  outline: none;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+}
+
+.form-row input {
+  width: 50%;
+  
+}
+
+.contact-form textarea {
+  height: 120px;
+  resize: none;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Button */
+.submit-btn {
+  padding: 12px 20px;
+  background: #333;
+  border: 1px solid #555;
+  color:white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background: white;
+  color: black;
+}

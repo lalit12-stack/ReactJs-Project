@@ -119,10 +119,10 @@ const Phychological = () => {
 
       {/*  */}
       {/* ---------------------------------------benefits of phychological therapy--------------------------------------------- */}
-      <section className="benefit-section">
-        <div className="benefit-card">
+      <section className="benefit-section2">
+        <div className="benefit-card2">
           {/* LEFT CONTENT */}
-          <div className="benefit-content">
+          <div className="benefit-content2">
             <h2>Who Can Benefit?</h2>
 
             <div className="benefit-list">

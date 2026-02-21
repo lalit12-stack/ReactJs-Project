@@ -1,0 +1,85 @@
+/* =========================
+   LOGIN PAGE
+========================= */
+
+.admin-container {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  padding: 10px;
+}
+
+.admin-box {
+  background: #ffffff;
+  padding: 40px 35px;
+  width: 380px;
+  border-radius: 16px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+  transition: 0.3s ease;
+}
+
+.admin-box h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 600;
+  color: #1e3c72;
+  letter-spacing: 0.5px;
+}
+
+/* INPUT FIELDS */
+.admin-box input {
+  width: 100%;
+  padding: 12px 14px;
+  margin: 12px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: 0.3s ease;
+  color: #000000;
+}
+
+.admin-box input:focus {
+  border-color: #2a5298;
+  box-shadow: 0 0 0 3px rgba(42, 82, 152, 0.15);
+  outline: none;
+}
+
+/* BUTTON */
+.admin-box button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.admin-box button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.password-wrapper {
+  position: relative;
+}
+
+.password-wrapper input {
+  width: 100%;
+  padding: 12px 40px 12px 14px; /* right side extra space */
+}
+
+.eye-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #2a5298;
+  font-size: 16px;
+}

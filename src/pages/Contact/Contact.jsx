@@ -1,6 +1,66 @@
-import { FaArrowRight, FaMapMarkedAlt } from "react-icons/fa";
+import { useState } from "react";
 import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
+import "./Contact.css";
+
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    phone: "",
+    email: "",
+    date: "",
+    time: "",
+    message: "",
+  });
+
+  const [loading, setLoading] = useState(false);
+
+  // Handle input change
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  // Handle form submit
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    try {
+      const response = await fetch("http://localhost:5000/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        alert("Form submitted successfully ✅");
+        setFormData({
+          name: "",
+          phone: "",
+          email: "",
+          date: "",
+          time: "",
+          message: "",
+        });
+      } else {
+        alert("Something went wrong ❌");
+      }
+
+      console.log(data);
+    } catch (error) {
+      console.error("Error:", error);
+      alert("Server error ❌");
+    }
+
+    setLoading(false);
+  };
+
   return (
     <>
       {/* Banner */}
@@ -14,7 +74,6 @@ const Contact = () => {
           <div className="contact-left">
             <h2 className="section-heading">Pay Now for a Consultation</h2>
 
-            {/* Card 1 */}
             <div className="contact-card">
               <div className="card-icon">
                 <FaPhoneAlt />
@@ -28,7 +87,6 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Card 2 */}
             <div className="contact-card">
               <div className="card-icon">
                 <FaEnvelope />
@@ -39,7 +97,6 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Card 3 */}
             <div className="contact-card">
               <div className="card-icon">
                 <FaMapMarkerAlt />
@@ -56,22 +113,61 @@ const Contact = () => {
 
           {/* RIGHT SIDE FORM */}
           <div className="contact-form">
-            <form>
+            <form onSubmit={handleSubmit}>
               <div className="form-row">
-                <input type="text" placeholder="Name *" />
-                <input type="text" placeholder="Phone *" />
+                <input
+                  type="text"
+                  placeholder="Name *"
+                  name="name"
+                  value={formData.name}
+                  onChange={handleChange}
+                  required
+                />
+
+                <input
+                  type="text"
+                  placeholder="Phone *"
+                  name="phone"
+                  value={formData.phone}
+                  onChange={handleChange}
+                  required
+                />
               </div>
 
-              <input type="email" placeholder="Email" />
+              <input
+                type="email"
+                placeholder="email"
+                name="email"
+                value={formData.email}
+                onChange={handleChange}
+              />
 
               <div className="form-row">
-                <input type="date" />
-                <input type="time" />
+                <input
+                  type="date"
+                  name="date"
+                  value={formData.date}
+                  onChange={handleChange}
+                />
+
+                <input
+                  type="time"
+                  name="time"
+                  value={formData.time}
+                  onChange={handleChange}
+                />
               </div>
 
-              <textarea placeholder="Message"></textarea>
+              <textarea
+                placeholder="Message"
+                name="message"
+                value={formData.message}
+                onChange={handleChange}
+              ></textarea>
 
-              <button className="submit-btn">Submit</button>
+              <button type="submit" className="submit-btn">
+                {loading ? "Submitting..." : "Submit"}
+              </button>
             </form>
           </div>
         </div>
